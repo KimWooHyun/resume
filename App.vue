@@ -76,7 +76,7 @@ section:nth-last-child(1) {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 30px;
+  padding: 30px 15px;
   overflow: hidden;
 }
 .section-info {
@@ -98,7 +98,11 @@ section:nth-last-child(1) {
     }
   }
 }
-
+@media (min-width: 480px) {
+  .index {
+    padding: 30px;
+  }
+}
 </style>
 
 <style lang="less">
@@ -158,6 +162,7 @@ table {
 
 @color-main: #f3f3f3;
 
+* { box-sizing: border-box; }
 body {
   background-color: @color-main;
   line-height: 1.5;
@@ -172,6 +177,8 @@ h5 { font-size: 14px; font-weight: bold; }
 
 a, a:focus, a:visited, a:active, a:hover {
   color: #4a4a4a;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .container {
@@ -179,7 +186,7 @@ a, a:focus, a:visited, a:active, a:hover {
   flex-wrap: wrap;
   max-width: 1140px;
   margin: 0 auto;
-  padding: 40px;
+  padding: 30px 15px;
   background-color: #ffffff;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);
 }
@@ -194,34 +201,33 @@ a, a:focus, a:visited, a:active, a:hover {
 .flex-dir-column { flex-direction: column; }
 .flex-dir-row-reverse { flex-direction: row-reverse; }
 
-.col-1 { flex: 0 0 8.333333%; }
-.col-2 { flex: 0 0 16.666667%; }
-.col-3 { flex: 0 0 25%; }
-.col-4 { flex: 0 0 33.333333%; }
-.col-5 { flex: 0 0 41.666667%; }
-.col-6 { flex: 0 0 50%; }
-.col-7 { flex: 0 0 58.333333%; }
-.col-8 { flex: 0 0 66.666667%; }
-.col-9 { flex: 0 0 75%; }
-.col-10 { flex: 0 0 83.333333%; }
-.col-11 { flex: 0 0 91.666667%; }
-.col-12 { flex: 0 0 100%; }
+.col-1 { max-width: 8.333333%; flex: 0 0 8.333333%; }
+.col-2 { max-width: 16.666667%; flex: 0 0 16.666667%; }
+.col-3 { max-width: 25%; flex: 0 0 25%; }
+.col-4 { max-width: 33.333333%; flex: 0 0 33.333333%; }
+.col-5 { max-width: 41.666667%; flex: 0 0 41.666667%; }
+.col-6 { max-width: 50%; flex: 0 0 50%; }
+.col-7 { max-width: 58.333333%; flex: 0 0 58.333333%; }
+.col-8 { max-width: 66.666667%; flex: 0 0 66.666667%; }
+.col-9 { max-width: 75%; flex: 0 0 75%; }
+.col-10 { max-width: 83.333333%; flex: 0 0 83.333333%; }
+.col-11 { max-width: 91.666667%; flex: 0 0 91.666667%; }
+.col-12 { max-width: 100%; flex: 0 0 100%; }
 
 // pc
 @media (min-width: 480px) {
-  .col-p-1 { flex: 0 0 8.333333%; }
-  .col-p-2 { flex: 0 0 16.666667%; }
-  .col-p-3 { flex: 0 0 25%; }
-  .col-p-4 { flex: 0 0 33.333333%; }
-  .col-p-5 { flex: 0 0 41.666667%; }
-  .col-p-6 { flex: 0 0 50%; }
-  .col-p-7 { flex: 0 0 58.333333%; }
-  .col-p-8 { flex: 0 0 66.666667%; }
-  .col-p-9 { flex: 0 0 75%; }
-  .col-p-10 { flex: 0 0 83.333333%; }
-  .col-p-11 { flex: 0 0 91.666667%; }
-  .col-p-12 { flex: 0 0 100%; }
-  .hidden-m { display: block; }
-  .visible-m { display: none; }
+  .col-p-1 { max-width: 8.333333%; flex: 0 0 8.333333%; }
+  .col-p-2 { max-width: 16.666667%; flex: 0 0 16.666667%; }
+  .col-p-3 { max-width: 25%; flex: 0 0 25%; }
+  .col-p-4 { max-width: 33.333333%; flex: 0 0 33.333333%; }
+  .col-p-5 { max-width: 41.666667%; flex: 0 0 41.666667%; }
+  .col-p-6 { max-width: 50%; flex: 0 0 50%; }
+  .col-p-7 { max-width: 58.333333%; flex: 0 0 58.333333%; }
+  .col-p-8 { max-width: 66.666667%; flex: 0 0 66.666667%; }
+  .col-p-9 { max-width: 75%; flex: 0 0 75%; }
+  .col-p-10 { max-width: 83.333333%; flex: 0 0 83.333333%; }
+  .col-p-11 { max-width: 91.666667%; flex: 0 0 91.666667%; }
+  .col-p-12 { max-width: 100%; flex: 0 0 100%; }
+  .container { padding: 40px; }
 }
 </style>
