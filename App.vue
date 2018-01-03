@@ -156,7 +156,7 @@ table {
 /* custom */
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
-@color-main: #ffffff;
+@color-main: #f3f3f3;
 
 body {
   background-color: @color-main;
