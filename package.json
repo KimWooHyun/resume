@@ -16,6 +16,8 @@
   },
   "homepage": "https://github.com/KimWooHyun/resume#readme",
   "dependencies": {
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
     "vue": "^2.5.13",
     "vue-loader": "^13.6.2",
     "vue-template-compiler": "^2.5.13"

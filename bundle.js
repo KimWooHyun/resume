@@ -588,16 +588,54 @@ function applyToTag (styleElement, obj) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__contents_js__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__contents_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__contents_js__);
 //
 //
 //
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 
 
 /* harmony default export */ __webpack_exports__["a"] = ({
-  name: 'index'
+  name: 'index',
+  data() {
+    return {
+      contents: __WEBPACK_IMPORTED_MODULE_0__contents_js___default.a
+    };
+  }
 });
 
 /***/ }),
@@ -8808,7 +8846,7 @@ exports.clearImmediate = clearImmediate;
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(4);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_472cff63_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_472cff63_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(17);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
@@ -8869,13 +8907,13 @@ var content = __webpack_require__(11);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(3)("04c2f149", content, false);
+var update = __webpack_require__(3)("6460e862", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-472cff63\",\"scoped\":true,\"hasInlineConfig\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./App.vue", function() {
-     var newContent = require("!!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-472cff63\",\"scoped\":true,\"hasInlineConfig\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./App.vue");
+   module.hot.accept("!!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-472cff63\",\"scoped\":true,\"hasInlineConfig\":false}!./node_modules/less-loader/dist/cjs.js!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./App.vue", function() {
+     var newContent = require("!!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-472cff63\",\"scoped\":true,\"hasInlineConfig\":false}!./node_modules/less-loader/dist/cjs.js!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./App.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -8893,7 +8931,7 @@ exports = module.exports = __webpack_require__(2)(undefined);
 
 
 // module
-exports.push([module.i, "\n.index[data-v-472cff63] {\n  background-color: #ffffff;\n  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);\n}\n", ""]);
+exports.push([module.i, "\nsection[data-v-472cff63] {\n  margin-bottom: 40px;\n}\n.index[data-v-472cff63] {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: center;\n  padding: 30px;\n}\n.section-info[data-v-472cff63] {\n  text-align: right;\n}\n.section-info h1[data-v-472cff63],\n.section-info h4[data-v-472cff63] {\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.section-detail-info .section-contents[data-v-472cff63] {\n  margin-bottom: 50px;\n}\n.section-detail-info .section-contents h1[data-v-472cff63] {\n  border-bottom: 5px solid rgba(96, 76, 141, 0.9);\n  margin-bottom: 20px;\n}\n.section-detail-info .section-contents table[data-v-472cff63],\n.section-detail-info .section-contents tbody[data-v-472cff63],\n.section-detail-info .section-contents tr[data-v-472cff63] {\n  display: flex;\n  flex-wrap: wrap;\n}\n.section-detail-info .section-contents td[data-v-472cff63] {\n  padding-bottom: 20px;\n}\n.section-detail-info .section-contents tr:nth-last-child(1) td[data-v-472cff63] {\n  padding-bottom: 0px;\n}\n.section-detail-info .section-contents .td-title[data-v-472cff63] {\n  font-weight: bold;\n}\n", ""]);
 
 // exports
 
@@ -8942,13 +8980,13 @@ var content = __webpack_require__(14);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(3)("097642f6", content, false);
+var update = __webpack_require__(3)("142d5178", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-472cff63\",\"scoped\":false,\"hasInlineConfig\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=1!./App.vue", function() {
-     var newContent = require("!!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-472cff63\",\"scoped\":false,\"hasInlineConfig\":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=1!./App.vue");
+   module.hot.accept("!!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-472cff63\",\"scoped\":false,\"hasInlineConfig\":false}!./node_modules/less-loader/dist/cjs.js!./node_modules/vue-loader/lib/selector.js?type=styles&index=1!./App.vue", function() {
+     var newContent = require("!!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-472cff63\",\"scoped\":false,\"hasInlineConfig\":false}!./node_modules/less-loader/dist/cjs.js!./node_modules/vue-loader/lib/selector.js?type=styles&index=1!./App.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -8966,7 +9004,7 @@ exports = module.exports = __webpack_require__(2)(undefined);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* reset css */\n\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed, \nfigure, figcaption, footer, header, hgroup, \nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, \nfooter, header, hgroup, menu, nav, section {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol, ul {\n\tlist-style: none;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n\tcontent: '';\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}\nbody {\n  background-color: #604c8d;\n}\n", ""]);
+exports.push([module.i, "/* reset css */\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml,\nbody,\ndiv,\nspan,\napplet,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\na,\nabbr,\nacronym,\naddress,\nbig,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\ns,\nsamp,\nsmall,\nstrike,\nstrong,\nsub,\nsup,\ntt,\nvar,\nb,\nu,\ni,\ncenter,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nembed,\nfigure,\nfigcaption,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\noutput,\nruby,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection {\n  display: block;\n}\nbody {\n  line-height: 1;\n}\nol,\nul {\n  list-style: none;\n}\nblockquote,\nq {\n  quotes: none;\n}\nblockquote:before,\nblockquote:after,\nq:before,\nq:after {\n  content: '';\n  content: none;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n/* custom */\nbody {\n  background-color: #604c8d;\n  line-height: 1.5;\n  color: #4a4a4a;\n}\nh1 {\n  font-size: 26px;\n  font-weight: bold;\n}\nh2 {\n  font-size: 22px;\n}\nh3 {\n  font-size: 18px;\n}\nh4 {\n  font-size: 16px;\n}\nh5 {\n  font-size: 14px;\n}\na,\na:focus,\na:visited,\na:active,\na:hover {\n  color: #4a4a4a;\n}\n.container {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1140px;\n  margin: 0 auto;\n  padding: 30px;\n  background-color: #ffffff;\n  border-radius: 3px;\n  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);\n}\n.flex {\n  display: flex;\n}\n.flex-wrap {\n  flex-wrap: wrap;\n}\n.flex-jc-start {\n  justify-content: flex-start;\n}\n.flex-jc-center {\n  justify-content: center;\n}\n.flex-jc-end {\n  justify-content: flex-end;\n}\n.flex-ai-start {\n  align-items: flex-start;\n}\n.flex-ai-center {\n  align-items: center;\n}\n.flex-dir-column {\n  flex-direction: column;\n}\n.flex-dir-row-reverse {\n  flex-direction: row-reverse;\n}\n.col-1 {\n  flex: 0 0 8.333333%;\n}\n.col-2 {\n  flex: 0 0 16.666667%;\n}\n.col-3 {\n  flex: 0 0 25%;\n}\n.col-4 {\n  flex: 0 0 33.333333%;\n}\n.col-5 {\n  flex: 0 0 41.666667%;\n}\n.col-6 {\n  flex: 0 0 50%;\n}\n.col-7 {\n  flex: 0 0 58.333333%;\n}\n.col-8 {\n  flex: 0 0 66.666667%;\n}\n.col-9 {\n  flex: 0 0 75%;\n}\n.col-10 {\n  flex: 0 0 83.333333%;\n}\n.col-11 {\n  flex: 0 0 91.666667%;\n}\n.col-12 {\n  flex: 0 0 100%;\n}\n", ""]);
 
 // exports
 
@@ -9082,6 +9120,76 @@ module.exports = function normalizeComponent (
 
 /***/ }),
 /* 16 */
+/***/ (function(module, exports) {
+
+module.exports = {
+  contents: {
+    '경력 요약': [{
+      'date': '2016.01 - 현재 (2년 1개월)',
+      'title': 'ONE MOMENT (원모먼트)',
+      'contents': ['주 - Front-end 개발', '서브 - Swift, Django 개발']
+    }, {
+      'date': '2015.01 - 2016.01 (1년 1개월)',
+      'title': 'ATEAM VENTURES (에이팀벤쳐스)',
+      'contents': ['주 - Front-end 개발', '서브 - Django, Flask 개발']
+    }],
+    '학력 사항': [{
+      'date': '2016 - 현재',
+      'title': '한국방송통신대학교',
+      'contents': ['컴퓨터과학과 재학중']
+    }, {
+      'date': '2012 - 2015',
+      'title': '미림여자정보과학고등학교 (미림 마이스터고)',
+      'contents': ['인터랙티브 미디어과 졸업']
+    }],
+    'Skill Set': [{
+      'date': 'Vue.js / Nuxt.js / Swift / Django',
+      'title': '',
+      'contents': ['']
+    }],
+    '개인 프로젝트': [{
+      'date': '2017.07 - 현재',
+      'title': 'vue-lunar-calendar',
+      'contents': ['- vue.js component library', '<a href="https://github.com/KimWooHyun/vue-lunar-calendar">- https://github.com/KimWooHyun/vue-lunar-calendar</a>']
+    }, {
+      'date': '2017.08',
+      'title': 'WHLunarCalendar',
+      'contents': ['- swift library', '<a href="https://github.com/KimWooHyun/WHLunarCalendar">- https://github.com/KimWooHyun/WHLunarCalendar</a>']
+    }],
+    '개인 활동': [{
+      'date': '2017.12',
+      'title': 'Do it! Vue.js',
+      'contents': ['vue.js 관련 책 기술 검토 및 자문', '서명: Do it! Vue.js 입문서', '저자: 장기효', '대상 독자: 프레임워크를 다뤄보지 않은 웹 개발 입문자, Vue.js를 배우고 싶은 대학생 & 퍼블리셔 & 실무자', '책 내용: 프론트엔드 개발 프레임워크인 Vue.js 소개, 뷰 기술요소 학습, 뷰를 이용한 실전 애플리케이션 제작']
+    }, {
+      'date': '2017.12',
+      'title': 'Vue.js Korea Meetup3',
+      'contents': ['vue.js Korea 3번째 밋업 스태프 및 행사 총괄']
+    }, {
+      'date': '2017.11',
+      'title': 'GDG DevFest',
+      'contents': ['GDG DevFest 안내 사이트 기술 자문', '<a href="https://devfest17-seoul.firebaseapp.com/">- https://devfest17-seoul.firebaseapp.com/</a>']
+    }, {
+      'date': '2017.09',
+      'title': '9XD 해커톤',
+      'contents': ['9XD 해커톤 "내꺼만들기, 내꺼톤" 참가', '- vue.js 전파']
+    }, {
+      'date': '2017.08',
+      'title': 'GDG Web Tech',
+      'contents': ['GDG Web Tech 발표', '- vue.js 관련 발표', '<a href="https://www.slideshare.net/ssuserd3aacb/vue-js-79169830">- https://www.slideshare.net/ssuserd3aacb/vue-js-79169830</a>']
+    }, {
+      'date': '2017.08',
+      'title': 'Vue.js Korea Meetup2',
+      'contents': ['vue.js Korea 2번째 밋업 스태프']
+    }, {
+      'date': '2017.07',
+      'title': 'GDG Korea Campus summer party',
+      'contents': ['GDG Korea Campus 스태프', '- 행사 준비', '- 안내사이트 제작', '<a href="https://gdgsummerparty.firebaseapp.com">- https://gdgsummerparty.firebaseapp.com</a>']
+    }]
+  }
+};
+
+/***/ }),
+/* 17 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9089,9 +9197,87 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "index" }, [_vm._v("\n  aaa\n")])
+  return _c("section", { staticClass: "index" }, [
+    _c("div", { staticClass: "container col-12" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _c(
+        "section",
+        { staticClass: "section-detail-info flex flex-wrap col-12" },
+        _vm._l(_vm.contents.contents, function(value, key) {
+          return _c(
+            "section",
+            { key: value.id, staticClass: "col-12 section-contents" },
+            [
+              _c("h1", [_vm._v(_vm._s(key))]),
+              _vm._v(" "),
+              _c("table", [
+                _c(
+                  "tbody",
+                  { staticClass: "col-12" },
+                  _vm._l(value, function(child) {
+                    return _c("tr", { key: child.id, staticClass: "col-12" }, [
+                      _c("td", { staticClass: "col-3" }, [
+                        _vm._v(_vm._s(child.date))
+                      ]),
+                      _vm._v(" "),
+                      _c("td", { staticClass: "col-4 td-title" }, [
+                        _vm._v(_vm._s(child.title))
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "td",
+                        { staticClass: "col-5" },
+                        _vm._l(child.contents, function(contents) {
+                          return _c("div", {
+                            key: contents.id,
+                            domProps: { innerHTML: _vm._s(contents) }
+                          })
+                        })
+                      )
+                    ])
+                  })
+                )
+              ])
+            ]
+          )
+        })
+      )
+    ])
+  ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "section",
+      { staticClass: "section-info flex flex-wrap flex-jc-end col-12" },
+      [
+        _c("div", [
+          _c("h1", [_vm._v("김우현")]),
+          _vm._v(" "),
+          _c("h4", [_vm._v("Front-end developer")]),
+          _vm._v(" "),
+          _c("div", [
+            _c("p", [_vm._v("3년 2개월 경력")]),
+            _vm._v(" "),
+            _c("p", [_vm._v("1996.11.05")]),
+            _vm._v(" "),
+            _c("p", [_vm._v("dngus242@gmail.com")]),
+            _vm._v(" "),
+            _c("p", [_vm._v("010-5496-2733")]),
+            _vm._v(" "),
+            _c("a", { attrs: { href: "https://github.com/KimWooHyun" } }, [
+              _vm._v("https://github.com/KimWooHyun")
+            ])
+          ])
+        ])
+      ]
+    )
+  }
+]
 render._withStripped = true
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
