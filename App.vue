@@ -154,12 +154,15 @@ table {
 }
 
 /* custom */
-@color-main: #604c8d;
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+@color-main: #ffffff;
 
 body {
   background-color: @color-main;
   line-height: 1.5;
   color: #4a4a4a;
+  font-family: 'Noto Sans KR';
 }
 h1 { font-size: 26px; font-weight: bold; }
 h2 { font-size: 22px; font-weight: bold; }
@@ -176,10 +179,9 @@ a, a:focus, a:visited, a:active, a:hover {
   flex-wrap: wrap;
   max-width: 1140px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 40px;
   background-color: #ffffff;
-  border-radius: 3px;
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
 .flex { display: flex; }

@@ -804,6 +804,8 @@ module.exports = g;
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["a"] = ({
   name: 'record-title',
@@ -9177,10 +9179,10 @@ if(false) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
 // imports
-
+exports.push([module.i, "@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);", ""]);
 
 // module
-exports.push([module.i, "/* reset css */\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml,\nbody,\ndiv,\nspan,\napplet,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\na,\nabbr,\nacronym,\naddress,\nbig,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\ns,\nsamp,\nsmall,\nstrike,\nstrong,\nsub,\nsup,\ntt,\nvar,\nb,\nu,\ni,\ncenter,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nembed,\nfigure,\nfigcaption,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\noutput,\nruby,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection {\n  display: block;\n}\nbody {\n  line-height: 1;\n}\nol,\nul {\n  list-style: none;\n}\nblockquote,\nq {\n  quotes: none;\n}\nblockquote:before,\nblockquote:after,\nq:before,\nq:after {\n  content: '';\n  content: none;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n/* custom */\nbody {\n  background-color: #604c8d;\n  line-height: 1.5;\n  color: #4a4a4a;\n}\nh1 {\n  font-size: 26px;\n  font-weight: bold;\n}\nh2 {\n  font-size: 22px;\n  font-weight: bold;\n}\nh3 {\n  font-size: 18px;\n  font-weight: bold;\n}\nh4 {\n  font-size: 16px;\n  font-weight: bold;\n}\nh5 {\n  font-size: 14px;\n  font-weight: bold;\n}\na,\na:focus,\na:visited,\na:active,\na:hover {\n  color: #4a4a4a;\n}\n.container {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1140px;\n  margin: 0 auto;\n  padding: 30px;\n  background-color: #ffffff;\n  border-radius: 3px;\n  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);\n}\n.flex {\n  display: flex;\n}\n.flex-wrap {\n  flex-wrap: wrap;\n}\n.flex-jc-start {\n  justify-content: flex-start;\n}\n.flex-jc-center {\n  justify-content: center;\n}\n.flex-jc-end {\n  justify-content: flex-end;\n}\n.flex-ai-start {\n  align-items: flex-start;\n}\n.flex-ai-center {\n  align-items: center;\n}\n.flex-dir-column {\n  flex-direction: column;\n}\n.flex-dir-row-reverse {\n  flex-direction: row-reverse;\n}\n.col-1 {\n  flex: 0 0 8.333333%;\n}\n.col-2 {\n  flex: 0 0 16.666667%;\n}\n.col-3 {\n  flex: 0 0 25%;\n}\n.col-4 {\n  flex: 0 0 33.333333%;\n}\n.col-5 {\n  flex: 0 0 41.666667%;\n}\n.col-6 {\n  flex: 0 0 50%;\n}\n.col-7 {\n  flex: 0 0 58.333333%;\n}\n.col-8 {\n  flex: 0 0 66.666667%;\n}\n.col-9 {\n  flex: 0 0 75%;\n}\n.col-10 {\n  flex: 0 0 83.333333%;\n}\n.col-11 {\n  flex: 0 0 91.666667%;\n}\n.col-12 {\n  flex: 0 0 100%;\n}\n@media (min-width: 480px) {\n.col-p-1 {\n    flex: 0 0 8.333333%;\n}\n.col-p-2 {\n    flex: 0 0 16.666667%;\n}\n.col-p-3 {\n    flex: 0 0 25%;\n}\n.col-p-4 {\n    flex: 0 0 33.333333%;\n}\n.col-p-5 {\n    flex: 0 0 41.666667%;\n}\n.col-p-6 {\n    flex: 0 0 50%;\n}\n.col-p-7 {\n    flex: 0 0 58.333333%;\n}\n.col-p-8 {\n    flex: 0 0 66.666667%;\n}\n.col-p-9 {\n    flex: 0 0 75%;\n}\n.col-p-10 {\n    flex: 0 0 83.333333%;\n}\n.col-p-11 {\n    flex: 0 0 91.666667%;\n}\n.col-p-12 {\n    flex: 0 0 100%;\n}\n.hidden-m {\n    display: block;\n}\n.visible-m {\n    display: none;\n}\n}\n", ""]);
+exports.push([module.i, "/* reset css */\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml,\nbody,\ndiv,\nspan,\napplet,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\na,\nabbr,\nacronym,\naddress,\nbig,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\ns,\nsamp,\nsmall,\nstrike,\nstrong,\nsub,\nsup,\ntt,\nvar,\nb,\nu,\ni,\ncenter,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nembed,\nfigure,\nfigcaption,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\noutput,\nruby,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection {\n  display: block;\n}\nbody {\n  line-height: 1;\n}\nol,\nul {\n  list-style: none;\n}\nblockquote,\nq {\n  quotes: none;\n}\nblockquote:before,\nblockquote:after,\nq:before,\nq:after {\n  content: '';\n  content: none;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n/* custom */\nbody {\n  background-color: #ffffff;\n  line-height: 1.5;\n  color: #4a4a4a;\n  font-family: 'Noto Sans KR';\n}\nh1 {\n  font-size: 26px;\n  font-weight: bold;\n}\nh2 {\n  font-size: 22px;\n  font-weight: bold;\n}\nh3 {\n  font-size: 18px;\n  font-weight: bold;\n}\nh4 {\n  font-size: 16px;\n  font-weight: bold;\n}\nh5 {\n  font-size: 14px;\n  font-weight: bold;\n}\na,\na:focus,\na:visited,\na:active,\na:hover {\n  color: #4a4a4a;\n}\n.container {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1140px;\n  margin: 0 auto;\n  padding: 40px;\n  background-color: #ffffff;\n  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);\n}\n.flex {\n  display: flex;\n}\n.flex-wrap {\n  flex-wrap: wrap;\n}\n.flex-jc-start {\n  justify-content: flex-start;\n}\n.flex-jc-center {\n  justify-content: center;\n}\n.flex-jc-end {\n  justify-content: flex-end;\n}\n.flex-ai-start {\n  align-items: flex-start;\n}\n.flex-ai-center {\n  align-items: center;\n}\n.flex-dir-column {\n  flex-direction: column;\n}\n.flex-dir-row-reverse {\n  flex-direction: row-reverse;\n}\n.col-1 {\n  flex: 0 0 8.333333%;\n}\n.col-2 {\n  flex: 0 0 16.666667%;\n}\n.col-3 {\n  flex: 0 0 25%;\n}\n.col-4 {\n  flex: 0 0 33.333333%;\n}\n.col-5 {\n  flex: 0 0 41.666667%;\n}\n.col-6 {\n  flex: 0 0 50%;\n}\n.col-7 {\n  flex: 0 0 58.333333%;\n}\n.col-8 {\n  flex: 0 0 66.666667%;\n}\n.col-9 {\n  flex: 0 0 75%;\n}\n.col-10 {\n  flex: 0 0 83.333333%;\n}\n.col-11 {\n  flex: 0 0 91.666667%;\n}\n.col-12 {\n  flex: 0 0 100%;\n}\n@media (min-width: 480px) {\n.col-p-1 {\n    flex: 0 0 8.333333%;\n}\n.col-p-2 {\n    flex: 0 0 16.666667%;\n}\n.col-p-3 {\n    flex: 0 0 25%;\n}\n.col-p-4 {\n    flex: 0 0 33.333333%;\n}\n.col-p-5 {\n    flex: 0 0 41.666667%;\n}\n.col-p-6 {\n    flex: 0 0 50%;\n}\n.col-p-7 {\n    flex: 0 0 58.333333%;\n}\n.col-p-8 {\n    flex: 0 0 66.666667%;\n}\n.col-p-9 {\n    flex: 0 0 75%;\n}\n.col-p-10 {\n    flex: 0 0 83.333333%;\n}\n.col-p-11 {\n    flex: 0 0 91.666667%;\n}\n.col-p-12 {\n    flex: 0 0 100%;\n}\n.hidden-m {\n    display: block;\n}\n.visible-m {\n    display: none;\n}\n}\n", ""]);
 
 // exports
 
@@ -9537,7 +9539,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "\nh1[data-v-1c8ad6fc] {\n  border-bottom: 5px solid rgba(96, 76, 141, 0.9);\n  margin-bottom: 20px;\n}\n", ""]);
+exports.push([module.i, "\nh1[data-v-1c8ad6fc] {\n  margin-bottom: 20px;\n}\nh1 span[data-v-1c8ad6fc] {\n  border-bottom: 5px solid #4a4a4a;\n}\n", ""]);
 
 // exports
 
@@ -9551,7 +9553,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("h1", [_vm._v(_vm._s(_vm.title))])
+  return _c("h1", [_c("span", [_vm._v(_vm._s(_vm.title))])])
 }
 var staticRenderFns = []
 render._withStripped = true
