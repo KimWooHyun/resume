@@ -1,7 +1,7 @@
 <template>
   <section class="index">
     <div class="container col-12">
-      <section class="section-info flex flex-wrap flex-jc-end col-12">
+      <section class="section-info flex flex-wrap flex-jc-end col-12 col-p-12">
         <div>
           <h1>김우현</h1>
           <h4>Front-end developer</h4>
@@ -68,12 +68,16 @@ export default {
 section {
   margin-bottom: 40px;
 }
+section:nth-last-child(1) {
+  margin-bottom: 0px;
+}
 .index {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding: 30px;
+  overflow: hidden;
 }
 .section-info {
   text-align: right;
@@ -200,4 +204,22 @@ a, a:focus, a:visited, a:active, a:hover {
 .col-10 { flex: 0 0 83.333333%; }
 .col-11 { flex: 0 0 91.666667%; }
 .col-12 { flex: 0 0 100%; }
+
+// pc
+@media (min-width: 480px) {
+  .col-p-1 { flex: 0 0 8.333333%; }
+  .col-p-2 { flex: 0 0 16.666667%; }
+  .col-p-3 { flex: 0 0 25%; }
+  .col-p-4 { flex: 0 0 33.333333%; }
+  .col-p-5 { flex: 0 0 41.666667%; }
+  .col-p-6 { flex: 0 0 50%; }
+  .col-p-7 { flex: 0 0 58.333333%; }
+  .col-p-8 { flex: 0 0 66.666667%; }
+  .col-p-9 { flex: 0 0 75%; }
+  .col-p-10 { flex: 0 0 83.333333%; }
+  .col-p-11 { flex: 0 0 91.666667%; }
+  .col-p-12 { flex: 0 0 100%; }
+  .hidden-m { display: block; }
+  .visible-m { display: none; }
+}
 </style>

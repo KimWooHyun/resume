@@ -3,7 +3,6 @@ module.exports = {
     entry: './index.js'
   },
 	output: {
-    // filename: 'dist/bundle.js'
     filename: './bundle.js'
   },
 	module: {

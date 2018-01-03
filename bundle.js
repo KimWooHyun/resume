@@ -9107,7 +9107,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "\nsection[data-v-472cff63] {\n  margin-bottom: 40px;\n}\n.index[data-v-472cff63] {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: center;\n  padding: 30px;\n}\n.section-info[data-v-472cff63] {\n  text-align: right;\n}\n.section-info h1[data-v-472cff63],\n.section-info h4[data-v-472cff63] {\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.section-contents h5[data-v-472cff63] {\n  margin-bottom: 30px;\n  color: #9e9e9e;\n}\n.section-contents .div-sub-title[data-v-472cff63] {\n  margin-bottom: 40px;\n}\n.section-contents .div-sub-title h4[data-v-472cff63] {\n  margin-bottom: 10px;\n}\n", ""]);
+exports.push([module.i, "\nsection[data-v-472cff63] {\n  margin-bottom: 40px;\n}\nsection[data-v-472cff63]:nth-last-child(1) {\n  margin-bottom: 0px;\n}\n.index[data-v-472cff63] {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: center;\n  padding: 30px;\n  overflow: hidden;\n}\n.section-info[data-v-472cff63] {\n  text-align: right;\n}\n.section-info h1[data-v-472cff63],\n.section-info h4[data-v-472cff63] {\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.section-contents h5[data-v-472cff63] {\n  margin-bottom: 30px;\n  color: #9e9e9e;\n}\n.section-contents .div-sub-title[data-v-472cff63] {\n  margin-bottom: 40px;\n}\n.section-contents .div-sub-title h4[data-v-472cff63] {\n  margin-bottom: 10px;\n}\n", ""]);
 
 // exports
 
@@ -9180,7 +9180,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "/* reset css */\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml,\nbody,\ndiv,\nspan,\napplet,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\na,\nabbr,\nacronym,\naddress,\nbig,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\ns,\nsamp,\nsmall,\nstrike,\nstrong,\nsub,\nsup,\ntt,\nvar,\nb,\nu,\ni,\ncenter,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nembed,\nfigure,\nfigcaption,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\noutput,\nruby,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection {\n  display: block;\n}\nbody {\n  line-height: 1;\n}\nol,\nul {\n  list-style: none;\n}\nblockquote,\nq {\n  quotes: none;\n}\nblockquote:before,\nblockquote:after,\nq:before,\nq:after {\n  content: '';\n  content: none;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n/* custom */\nbody {\n  background-color: #604c8d;\n  line-height: 1.5;\n  color: #4a4a4a;\n}\nh1 {\n  font-size: 26px;\n  font-weight: bold;\n}\nh2 {\n  font-size: 22px;\n  font-weight: bold;\n}\nh3 {\n  font-size: 18px;\n  font-weight: bold;\n}\nh4 {\n  font-size: 16px;\n  font-weight: bold;\n}\nh5 {\n  font-size: 14px;\n  font-weight: bold;\n}\na,\na:focus,\na:visited,\na:active,\na:hover {\n  color: #4a4a4a;\n}\n.container {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1140px;\n  margin: 0 auto;\n  padding: 30px;\n  background-color: #ffffff;\n  border-radius: 3px;\n  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);\n}\n.flex {\n  display: flex;\n}\n.flex-wrap {\n  flex-wrap: wrap;\n}\n.flex-jc-start {\n  justify-content: flex-start;\n}\n.flex-jc-center {\n  justify-content: center;\n}\n.flex-jc-end {\n  justify-content: flex-end;\n}\n.flex-ai-start {\n  align-items: flex-start;\n}\n.flex-ai-center {\n  align-items: center;\n}\n.flex-dir-column {\n  flex-direction: column;\n}\n.flex-dir-row-reverse {\n  flex-direction: row-reverse;\n}\n.col-1 {\n  flex: 0 0 8.333333%;\n}\n.col-2 {\n  flex: 0 0 16.666667%;\n}\n.col-3 {\n  flex: 0 0 25%;\n}\n.col-4 {\n  flex: 0 0 33.333333%;\n}\n.col-5 {\n  flex: 0 0 41.666667%;\n}\n.col-6 {\n  flex: 0 0 50%;\n}\n.col-7 {\n  flex: 0 0 58.333333%;\n}\n.col-8 {\n  flex: 0 0 66.666667%;\n}\n.col-9 {\n  flex: 0 0 75%;\n}\n.col-10 {\n  flex: 0 0 83.333333%;\n}\n.col-11 {\n  flex: 0 0 91.666667%;\n}\n.col-12 {\n  flex: 0 0 100%;\n}\n", ""]);
+exports.push([module.i, "/* reset css */\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml,\nbody,\ndiv,\nspan,\napplet,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\na,\nabbr,\nacronym,\naddress,\nbig,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\ns,\nsamp,\nsmall,\nstrike,\nstrong,\nsub,\nsup,\ntt,\nvar,\nb,\nu,\ni,\ncenter,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nembed,\nfigure,\nfigcaption,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\noutput,\nruby,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection {\n  display: block;\n}\nbody {\n  line-height: 1;\n}\nol,\nul {\n  list-style: none;\n}\nblockquote,\nq {\n  quotes: none;\n}\nblockquote:before,\nblockquote:after,\nq:before,\nq:after {\n  content: '';\n  content: none;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n/* custom */\nbody {\n  background-color: #604c8d;\n  line-height: 1.5;\n  color: #4a4a4a;\n}\nh1 {\n  font-size: 26px;\n  font-weight: bold;\n}\nh2 {\n  font-size: 22px;\n  font-weight: bold;\n}\nh3 {\n  font-size: 18px;\n  font-weight: bold;\n}\nh4 {\n  font-size: 16px;\n  font-weight: bold;\n}\nh5 {\n  font-size: 14px;\n  font-weight: bold;\n}\na,\na:focus,\na:visited,\na:active,\na:hover {\n  color: #4a4a4a;\n}\n.container {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1140px;\n  margin: 0 auto;\n  padding: 30px;\n  background-color: #ffffff;\n  border-radius: 3px;\n  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);\n}\n.flex {\n  display: flex;\n}\n.flex-wrap {\n  flex-wrap: wrap;\n}\n.flex-jc-start {\n  justify-content: flex-start;\n}\n.flex-jc-center {\n  justify-content: center;\n}\n.flex-jc-end {\n  justify-content: flex-end;\n}\n.flex-ai-start {\n  align-items: flex-start;\n}\n.flex-ai-center {\n  align-items: center;\n}\n.flex-dir-column {\n  flex-direction: column;\n}\n.flex-dir-row-reverse {\n  flex-direction: row-reverse;\n}\n.col-1 {\n  flex: 0 0 8.333333%;\n}\n.col-2 {\n  flex: 0 0 16.666667%;\n}\n.col-3 {\n  flex: 0 0 25%;\n}\n.col-4 {\n  flex: 0 0 33.333333%;\n}\n.col-5 {\n  flex: 0 0 41.666667%;\n}\n.col-6 {\n  flex: 0 0 50%;\n}\n.col-7 {\n  flex: 0 0 58.333333%;\n}\n.col-8 {\n  flex: 0 0 66.666667%;\n}\n.col-9 {\n  flex: 0 0 75%;\n}\n.col-10 {\n  flex: 0 0 83.333333%;\n}\n.col-11 {\n  flex: 0 0 91.666667%;\n}\n.col-12 {\n  flex: 0 0 100%;\n}\n@media (min-width: 480px) {\n.col-p-1 {\n    flex: 0 0 8.333333%;\n}\n.col-p-2 {\n    flex: 0 0 16.666667%;\n}\n.col-p-3 {\n    flex: 0 0 25%;\n}\n.col-p-4 {\n    flex: 0 0 33.333333%;\n}\n.col-p-5 {\n    flex: 0 0 41.666667%;\n}\n.col-p-6 {\n    flex: 0 0 50%;\n}\n.col-p-7 {\n    flex: 0 0 58.333333%;\n}\n.col-p-8 {\n    flex: 0 0 66.666667%;\n}\n.col-p-9 {\n    flex: 0 0 75%;\n}\n.col-p-10 {\n    flex: 0 0 83.333333%;\n}\n.col-p-11 {\n    flex: 0 0 91.666667%;\n}\n.col-p-12 {\n    flex: 0 0 100%;\n}\n.hidden-m {\n    display: block;\n}\n.visible-m {\n    display: none;\n}\n}\n", ""]);
 
 // exports
 
@@ -9392,7 +9392,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "\n.section-contents[data-v-239f04aa] {\n  margin-bottom: 50px;\n}\n.section-contents h1[data-v-239f04aa] {\n  border-bottom: 5px solid rgba(96, 76, 141, 0.9);\n  margin-bottom: 20px;\n}\n.section-contents table[data-v-239f04aa],\n.section-contents tbody[data-v-239f04aa],\n.section-contents tr[data-v-239f04aa] {\n  display: flex;\n  flex-wrap: wrap;\n}\n.section-contents td[data-v-239f04aa] {\n  padding-bottom: 20px;\n}\n.section-contents tr:nth-last-child(1) td[data-v-239f04aa] {\n  padding-bottom: 0px;\n}\n.section-contents .td-title[data-v-239f04aa] {\n  font-weight: bold;\n}\n", ""]);
+exports.push([module.i, "\n.section-contents[data-v-239f04aa] {\n  margin-bottom: 50px;\n}\n.section-contents h1[data-v-239f04aa] {\n  border-bottom: 5px solid rgba(96, 76, 141, 0.9);\n  margin-bottom: 20px;\n}\n.section-contents table[data-v-239f04aa],\n.section-contents tbody[data-v-239f04aa],\n.section-contents tr[data-v-239f04aa] {\n  display: flex;\n  flex-wrap: wrap;\n}\n.section-contents tr[data-v-239f04aa] {\n  margin-bottom: 20px;\n  border-bottom: dashed 1px #dddddd;\n}\n.section-contents td[data-v-239f04aa] {\n  padding-bottom: 10px;\n}\n.section-contents .td-title[data-v-239f04aa] {\n  font-weight: bold;\n}\n@media (min-width: 480px) {\n.section-contents td[data-v-239f04aa] {\n    padding-bottom: 20px;\n}\n}\n", ""]);
 
 // exports
 
@@ -9412,15 +9412,17 @@ var render = function() {
       { staticClass: "col-12" },
       _vm._l(_vm.lists, function(child) {
         return _c("tr", { key: child.id, staticClass: "col-12" }, [
-          _c("td", { staticClass: "col-3" }, [_vm._v(_vm._s(child.date))]),
+          _c("td", { staticClass: "col-12 col-p-3" }, [
+            _vm._v(_vm._s(child.date))
+          ]),
           _vm._v(" "),
-          _c("td", { staticClass: "col-4 td-title" }, [
+          _c("td", { staticClass: "col-12 col-p-4 td-title" }, [
             _vm._v(_vm._s(child.title))
           ]),
           _vm._v(" "),
           _c(
             "td",
-            { staticClass: "col-5" },
+            { staticClass: "col-12 col-p-5" },
             _vm._l(child.contents, function(contents) {
               return _c("div", {
                 key: contents.id,
@@ -9668,7 +9670,9 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "section",
-      { staticClass: "section-info flex flex-wrap flex-jc-end col-12" },
+      {
+        staticClass: "section-info flex flex-wrap flex-jc-end col-12 col-p-12"
+      },
       [
         _c("div", [
           _c("h1", [_vm._v("김우현")]),
