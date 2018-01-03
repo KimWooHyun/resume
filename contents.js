@@ -117,5 +117,93 @@ module.exports = {
         ]
       }
     ]
+  },
+  detailContents: {
+    'ONE MOMENT (원모먼트)': {
+      'date': '2016.01 - 현재',
+      'info': '90분 당일 꽃배달 서비스 “원모먼트 플라워” 를 서비스 중인 스타트업.',
+      'service': [
+        'Web - <a href="https://1moment.co.kr/">https://1moment.co.kr/</a>',
+        'iOS App - <a href="https://goo.gl/jP2ZYR">https://goo.gl/jP2ZYR</a>'
+      ],
+      'project': {
+        'project': [
+          {
+            'date': '2017.10 - 현재',
+            'title': 'Nuxt.js 도입 및 SSR 지원',
+            'contents': [
+              '원모먼트 사이트 전체 리뉴얼',
+              '- Nuxt.js 도입',
+              '- 단독진행',
+              'stack: Vue.js, Nuxt.js, Less'
+            ]
+          },
+          {
+            'date': '2017.02 - 2017.03',
+            'title': 'Vue.js 도입',
+            'contents': [
+              '원모먼트 사이트 전체 리뉴얼',
+              '- Vue.js 도입',
+              'stack: Vue.js'
+            ]
+          },
+          {
+            'date': '2016.06 - 2017.11',
+            'title': 'iOS App 런칭',
+            'contents': [
+              'iOS App 런칭',
+              '- 단독진행',
+              '- 배포 및 버전 관리',
+              'stack: swift, cocoapods'
+            ]
+          },
+          {
+            'date': '2016.01 - 2016.03',
+            'title': '원모먼트 관리자 사이트',
+            'contents': [
+              '원모먼트 서비스 관리자 사이트 제작 및 유지보수',
+              'stack: Django'
+            ]
+          },
+          {
+            'date': '2016.01 - 2016.03',
+            'title': '웹사이트 런칭',
+            'contents': [
+              '원모먼트 서비스 런칭',
+              '- Front-end 단독진행',
+              'stack: html, css, javascript, jquery, Django'
+            ]
+          }
+        ]
+      }
+    },
+    'ATEAM VENTURES (에이팀벤쳐스)': {
+      'date': '2015.01 - 2016.01',
+      'info': '3D Printer 공유 플랫폼 사이트 “ShapEngine” 을 서비스 중인 스타트업.',
+      'service': [
+        'Web - <a href="https://shapengine.com/">https://shapengine.com/</a>'
+      ],
+      'project': {
+        'project': [
+          {
+            'date': '2015.07 - 2016.01',
+            'title': '웹 사이트 리뉴얼',
+            'contents': [
+              '웹사이트 리뉴얼',
+              '- Django로 리팩토링',
+              'stack: Django, Jinja2, html, css, javascript',
+            ]
+          },
+          {
+            'date': '2015.01 - 2015.07',
+            'title': '웹 사이트 제작',
+            'contents': [
+              '웹 사이트 제작',
+              'stack: Flask, Jinja2, html, css, javascript',
+            ]
+          }
+        ]
+      }
+    }
   }
 };

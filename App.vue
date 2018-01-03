@@ -16,18 +16,29 @@
       </section>
       <section class="section-detail-info flex flex-wrap col-12">
         <section class="col-12 section-contents" v-for="(value, key) in contents.contents" :key="value.id">
-          <h1>{{key}}</h1>
-          <table>
-            <tbody class="col-12">
-              <tr class="col-12" v-for="child in value" :key="child.id">
-                <td class="col-3">{{child.date}}</td>
-                <td class="col-4 td-title">{{child.title}}</td>
-                <td class="col-5">
-                  <div v-for="contents in child.contents" :key="contents.id" v-html="contents"></div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <record-title :title="key"></record-title>
+          <record-list :title="key" :lists="value"></record-list>
+        </section>
+        <section class="col-12 section-contents">
+          <record-title title="상세 경력"></record-title>
+          <section v-for="(detailContent, key) in contents.detailContents" :key="detailContent.id">
+            <h2>{{key}}</h2>
+            <h5>{{detailContent.date}}</h5>
+            <div class="div-sub-title">
+              <h4>[회사 소개]</h4>
+              <p>{{detailContent.info}}</p>
+            </div>
+            <div class="div-sub-title">
+              <h4>[서비스]</h4>
+              <p v-for="service in detailContent.service" :key="service.id" v-html="service"></p>
+            </div>
+            <div class="div-sub-title">
+              <h4>[진행 프로젝트]</h4>
+              <section class="col-12 section-contents" v-for="(project, key) in detailContent.project" :key="project.id">
+                <record-list :title="key" :lists="project" ></record-list>
+              </section>
+            </div>
+          </section>
         </section>
       </section>
     </div>
@@ -36,9 +47,15 @@
 
 <script>
 import Contents from './contents.js'
+import RecordList from './components/RecordList.vue'
+import RecordTitle from './components/RecordTitle.vue'
 
 export default {
   name: 'index',
+  components: {
+    RecordList,
+    RecordTitle
+  },
   data () {
     return {
       contents: Contents
@@ -65,30 +82,19 @@ section {
     margin-bottom: 10px;
   }
 }
-.section-detail-info {
-  .section-contents {
-    margin-bottom: 50px;
-    h1 {
-      border-bottom: 5px solid rgba(96, 76, 141, 0.9);
-      margin-bottom: 20px;
-    }
-    table, tbody, tr {
-      display: flex;
-      flex-wrap: wrap
-    }
-    td {
-      padding-bottom: 20px;
-    }
-    tr:nth-last-child(1) {
-      td {
-        padding-bottom: 0px;
-      }
-    }
-    .td-title {
-      font-weight: bold;
+.section-contents {
+  h5 {
+    margin-bottom: 30px;
+    color: #9e9e9e;
+  }
+  .div-sub-title {
+    margin-bottom: 40px;
+    h4 {
+      margin-bottom: 10px;
     }
   }
 }
+
 </style>
 
 <style lang="less">
@@ -152,10 +158,10 @@ body {
   color: #4a4a4a;
 }
 h1 { font-size: 26px; font-weight: bold; }
-h2 { font-size: 22px; }
-h3 { font-size: 18px; }
-h4 { font-size: 16px; }
-h5 { font-size: 14px; }
+h2 { font-size: 22px; font-weight: bold; }
+h3 { font-size: 18px; font-weight: bold; }
+h4 { font-size: 16px; font-weight: bold; }
+h5 { font-size: 14px; font-weight: bold; }
 
 a, a:focus, a:visited, a:active, a:hover {
   color: #4a4a4a;
