@@ -32,8 +32,23 @@ module.exports = {
     ],
     'Skill Set': [
       {
-        'date': 'Vue.js / Nuxt.js / Swift / Django',
-        'title': '',
+        'date': 'Language',
+        'title': 'HTML5 / CSS3 / JavaScript / Swift / Python',
+        'contents': ['']
+      },
+      {
+        'date': 'Framework',
+        'title': 'Vue.js / Nuxt.js / Django / Bootstrap',
+        'contents': ['']
+      },
+      {
+        'date': 'Library',
+        'title': 'Webpack / jQuery / Less / Axios / Alamofire',
+        'contents': ['']
+      },
+      {
+        'date': 'Dependency Manager',
+        'title': 'cocoapods / npm / yarn / pip',
         'contents': ['']
       }
     ],
@@ -43,7 +58,7 @@ module.exports = {
         'title': 'vue-lunar-calendar',
         'contents': [
           '- vue.js component library',
-          '<a href="https://github.com/KimWooHyun/vue-lunar-calendar">- https://github.com/KimWooHyun/vue-lunar-calendar</a>'
+          '- <a href="https://github.com/KimWooHyun/vue-lunar-calendar">https://github.com/KimWooHyun/vue-lunar-calendar</a>'
         ]
       },
       {
@@ -51,7 +66,7 @@ module.exports = {
         'title': 'WHLunarCalendar',
         'contents': [
           '- swift library',
-          '<a href="https://github.com/KimWooHyun/WHLunarCalendar">- https://github.com/KimWooHyun/WHLunarCalendar</a>'
+          '- <a href="https://github.com/KimWooHyun/WHLunarCalendar">https://github.com/KimWooHyun/WHLunarCalendar</a>'
         ]
       }
     ],
@@ -78,8 +93,9 @@ module.exports = {
         'date': '2017.11',
         'title': 'GDG DevFest',
         'contents': [
-          'GDG DevFest 안내 사이트 기술 자문',
-          '<a href="https://devfest17-seoul.firebaseapp.com/">- https://devfest17-seoul.firebaseapp.com/</a>'
+          'GDG DevFest 스태프',
+          '- 안내사이트 제작 참여',
+          '- <a href="https://devfest17-seoul.firebaseapp.com/">https://devfest17-seoul.firebaseapp.com/</a>'
         ]
       },
       {
@@ -87,7 +103,9 @@ module.exports = {
         'title': '9XD 해커톤',
         'contents': [
           '9XD 해커톤 "내꺼만들기, 내꺼톤" 참가',
-          '- vue.js 전파'
+          '- vue.js 전파',
+          '- 팀 주제: 불만',
+          '- 본인의 불만을 말하고 피드백을 받을 수 있는 게시판 형태의 웹 서비스 "불만투고" 제작 및 배포'
         ]
       },
       {
@@ -96,7 +114,7 @@ module.exports = {
         'contents': [
           'GDG Web Tech 발표',
           '- vue.js 관련 발표',
-          '<a href="https://www.slideshare.net/ssuserd3aacb/vue-js-79169830">- https://www.slideshare.net/ssuserd3aacb/vue-js-79169830</a>'
+          '- <a href="https://www.slideshare.net/ssuserd3aacb/vue-js-79169830">https://www.slideshare.net/ssuserd3aacb/vue-js-79169830</a>'
         ]
       },
       {
@@ -112,8 +130,8 @@ module.exports = {
         'contents': [
           'GDG Korea Campus 스태프',
           '- 행사 준비',
-          '- 안내사이트 제작',
-          '<a href="https://gdgsummerparty.firebaseapp.com">- https://gdgsummerparty.firebaseapp.com</a>'
+          '- 안내사이트 제작 참여',
+          '- <a href="https://gdgsummerparty.firebaseapp.com">https://gdgsummerparty.firebaseapp.com</a>'
         ]
       }
     ]
