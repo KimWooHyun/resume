@@ -179,6 +179,7 @@ a, a:focus, a:visited, a:active, a:hover {
   color: #4a4a4a;
   overflow-wrap: break-word;
   word-wrap: break-word;
+  word-break: break-all;
 }
 
 .container {
