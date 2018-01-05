@@ -9217,7 +9217,7 @@ module.exports = {
       'contents': ['']
     }, {
       'date': 'Framework',
-      'title': 'Vue.js / Nuxt.js / Django / Bootstrap',
+      'title': 'Vue.js / Nuxt.js / Django / Flask / Bootstrap',
       'contents': ['']
     }, {
       'date': 'Library',
@@ -9231,11 +9231,11 @@ module.exports = {
     '개인 프로젝트': [{
       'date': '2017.07 - 현재',
       'title': 'vue-lunar-calendar',
-      'contents': ['- vue.js component library', '- <a href="https://github.com/KimWooHyun/vue-lunar-calendar">https://github.com/KimWooHyun/vue-lunar-calendar</a>']
+      'contents': ['- Vue.js component library', '- <a href="https://github.com/KimWooHyun/vue-lunar-calendar">https://github.com/KimWooHyun/vue-lunar-calendar</a>']
     }, {
       'date': '2017.08',
       'title': 'WHLunarCalendar',
-      'contents': ['- swift library', '- <a href="https://github.com/KimWooHyun/WHLunarCalendar">https://github.com/KimWooHyun/WHLunarCalendar</a>']
+      'contents': ['- Swift library', '- <a href="https://github.com/KimWooHyun/WHLunarCalendar">https://github.com/KimWooHyun/WHLunarCalendar</a>']
     }],
     '개인 활동': [{
       'date': '2017.12',
@@ -9244,7 +9244,7 @@ module.exports = {
     }, {
       'date': '2017.12',
       'title': 'Vue.js Korea Meetup3',
-      'contents': ['vue.js Korea 3번째 밋업 스태프 및 행사 총괄']
+      'contents': ['Vue.js Korea 3번째 밋업 스태프 및 행사 총괄']
     }, {
       'date': '2017.11',
       'title': 'GDG DevFest',
@@ -9252,11 +9252,11 @@ module.exports = {
     }, {
       'date': '2017.09',
       'title': '9XD 해커톤',
-      'contents': ['9XD 해커톤 "내꺼만들기, 내꺼톤" 참가', '- vue.js 전파', '- 팀 주제: 불만', '- 본인의 불만을 말하고 피드백을 받을 수 있는 게시판 형태의 웹 서비스 "불만투고" 제작 및 배포']
+      'contents': ['9XD 해커톤 "내꺼만들기, 내꺼톤" 참가', '- Vue.js 전파', '- 팀 주제: 불만', '- 본인의 불만을 말하고 피드백을 받을 수 있는 게시판 형태의 웹 서비스 "불만투고" 제작 및 배포']
     }, {
       'date': '2017.08',
       'title': 'GDG Web Tech',
-      'contents': ['GDG Web Tech 발표', '- vue.js 관련 발표', '- <a href="https://www.slideshare.net/ssuserd3aacb/vue-js-79169830">https://www.slideshare.net/ssuserd3aacb/vue-js-79169830</a>']
+      'contents': ['GDG Web Tech 발표', '- Vue.js 관련 발표', '- <a href="https://www.slideshare.net/ssuserd3aacb/vue-js-79169830">https://www.slideshare.net/ssuserd3aacb/vue-js-79169830</a>']
     }, {
       'date': '2017.08',
       'title': 'Vue.js Korea Meetup2',
@@ -9284,7 +9284,7 @@ module.exports = {
         }, {
           'date': '2016.06 - 2017.11',
           'title': 'iOS App 런칭',
-          'contents': ['iOS App 런칭', '- 단독진행', '- 배포 및 버전 관리', 'stack: swift, cocoapods']
+          'contents': ['iOS App 런칭', '- 단독진행', '- 배포 및 버전 관리', 'stack: Swift, cocoapods']
         }, {
           'date': '2016.01 - 2016.03',
           'title': '원모먼트 관리자 사이트',
@@ -9292,7 +9292,7 @@ module.exports = {
         }, {
           'date': '2016.01 - 2016.03',
           'title': '웹사이트 런칭',
-          'contents': ['원모먼트 서비스 런칭', '- Front-end 단독진행', 'stack: html, css, javascript, jquery, Django']
+          'contents': ['원모먼트 서비스 런칭', '- Front-end 단독진행', 'stack: HTML5, CSS3, JavaScript, jQuery, Django']
         }]
       }
     },
@@ -9304,11 +9304,11 @@ module.exports = {
         'project': [{
           'date': '2015.07 - 2016.01',
           'title': '웹 사이트 리뉴얼',
-          'contents': ['웹사이트 리뉴얼', '- Django로 리팩토링', 'stack: Django, Jinja2, html, css, javascript']
+          'contents': ['웹사이트 리뉴얼', '- Django로 리팩토링', 'stack: Django, Jinja2, HTML5, CSS3, JavaScript']
         }, {
           'date': '2015.01 - 2015.07',
           'title': '웹 사이트 제작',
-          'contents': ['웹 사이트 제작', 'stack: Flask, Jinja2, html, css, javascript']
+          'contents': ['웹 사이트 제작', 'stack: Flask, Jinja2, HTML5, CSS3, JavaScript']
         }]
       }
     }

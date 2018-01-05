@@ -38,7 +38,7 @@ module.exports = {
       },
       {
         'date': 'Framework',
-        'title': 'Vue.js / Nuxt.js / Django / Bootstrap',
+        'title': 'Vue.js / Nuxt.js / Django / Flask / Bootstrap',
         'contents': ['']
       },
       {
@@ -57,7 +57,7 @@ module.exports = {
         'date': '2017.07 - 현재',
         'title': 'vue-lunar-calendar',
         'contents': [
-          '- vue.js component library',
+          '- Vue.js component library',
           '- <a href="https://github.com/KimWooHyun/vue-lunar-calendar">https://github.com/KimWooHyun/vue-lunar-calendar</a>'
         ]
       },
@@ -65,7 +65,7 @@ module.exports = {
         'date': '2017.08',
         'title': 'WHLunarCalendar',
         'contents': [
-          '- swift library',
+          '- Swift library',
           '- <a href="https://github.com/KimWooHyun/WHLunarCalendar">https://github.com/KimWooHyun/WHLunarCalendar</a>'
         ]
       }
@@ -86,7 +86,7 @@ module.exports = {
         'date': '2017.12',
         'title': 'Vue.js Korea Meetup3',
         'contents': [
-          'vue.js Korea 3번째 밋업 스태프 및 행사 총괄'
+          'Vue.js Korea 3번째 밋업 스태프 및 행사 총괄'
         ]
       },
       {
@@ -103,7 +103,7 @@ module.exports = {
         'title': '9XD 해커톤',
         'contents': [
           '9XD 해커톤 "내꺼만들기, 내꺼톤" 참가',
-          '- vue.js 전파',
+          '- Vue.js 전파',
           '- 팀 주제: 불만',
           '- 본인의 불만을 말하고 피드백을 받을 수 있는 게시판 형태의 웹 서비스 "불만투고" 제작 및 배포'
         ]
@@ -113,7 +113,7 @@ module.exports = {
         'title': 'GDG Web Tech',
         'contents': [
           'GDG Web Tech 발표',
-          '- vue.js 관련 발표',
+          '- Vue.js 관련 발표',
           '- <a href="https://www.slideshare.net/ssuserd3aacb/vue-js-79169830">https://www.slideshare.net/ssuserd3aacb/vue-js-79169830</a>'
         ]
       },
@@ -172,7 +172,7 @@ module.exports = {
               'iOS App 런칭',
               '- 단독진행',
               '- 배포 및 버전 관리',
-              'stack: swift, cocoapods'
+              'stack: Swift, cocoapods'
             ]
           },
           {
@@ -189,7 +189,7 @@ module.exports = {
             'contents': [
               '원모먼트 서비스 런칭',
               '- Front-end 단독진행',
-              'stack: html, css, javascript, jquery, Django'
+              'stack: HTML5, CSS3, JavaScript, jQuery, Django'
             ]
           }
         ]
@@ -209,7 +209,7 @@ module.exports = {
             'contents': [
               '웹사이트 리뉴얼',
               '- Django로 리팩토링',
-              'stack: Django, Jinja2, html, css, javascript',
+              'stack: Django, Jinja2, HTML5, CSS3, JavaScript',
             ]
           },
           {
@@ -217,7 +217,7 @@ module.exports = {
             'title': '웹 사이트 제작',
             'contents': [
               '웹 사이트 제작',
-              'stack: Flask, Jinja2, html, css, javascript',
+              'stack: Flask, Jinja2, HTML5, CSS3, JavaScript',
             ]
           }
         ]
