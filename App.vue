@@ -6,7 +6,7 @@
           <h1>김우현</h1>
           <h4>Front-end developer</h4>
           <div>
-            <p>3년 2개월 경력</p>
+            <p>3년 3개월 경력</p>
             <p>1996.11.05</p>
             <p>dngus242@gmail.com</p>
             <p>010-5496-2733</p>
@@ -15,6 +15,10 @@
         </div>
       </section>
       <section class="section-detail-info flex flex-wrap col-12">
+        <section class="col-12 section-contents">
+          <record-title title="자기소개"></record-title>
+          <div v-html="contents.introduction"></div>
+        </section>
         <section class="col-12 section-contents" v-for="(value, key) in contents.contents" :key="value.id">
           <record-title :title="key"></record-title>
           <record-list :title="key" :lists="value"></record-list>
