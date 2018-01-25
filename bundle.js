@@ -9297,7 +9297,7 @@ module.exports = {
         'project': [{
           'date': '2017.10 - 2018.01',
           'title': 'Nuxt.js 도입 및 SSR 지원',
-          'contents': ['원모먼트 서비스 사이트 전체 리뉴얼', '- Nuxt.js 도입 및 SSR 지원', '- 기존 부트스트랩 4 와 3 가 혼합되어 있는 레거시 제거 및 LESS 도입', '- 그리드 시스템 개발', '- 시멘틱 웹 표준 준수', '- axios 를 활용한 api call', '- PM2, ecosystem을 이용한 배포 자동화', '- 기여도 : 100%, 단독진행', 'stack: Vue.js, Nuxt.js, Less']
+          'contents': ['원모먼트 서비스 사이트 전체 리뉴얼', '- Nuxt.js 도입 및 SSR 지원', '- css 프레임워크 제거 및 LESS 도입', '- 그리드 시스템 개발', '- 시멘틱 웹 표준 준수', '- axios 를 활용한 api call', '- PM2, ecosystem을 이용한 배포 자동화', '- 기여도 : 100%, 단독진행', 'stack: Vue.js, Nuxt.js, Less']
         }, {
           'date': '2017.02 - 2017.03',
           'title': 'Vue.js 도입',
