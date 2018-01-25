@@ -45,7 +45,7 @@ module.exports = {
     ],
     'Skill Set': [
       {
-        'date': '(중급 이상: 3, 중급: 2, 초급: 1)',
+        'date': '(상급: 3, 중급: 2, 초급: 1)',
         'title': '',
         'contents': ['']
       },

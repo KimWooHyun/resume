@@ -9229,7 +9229,7 @@ module.exports = {
       'contents': ['인터랙티브 미디어과 졸업']
     }],
     'Skill Set': [{
-      'date': '(중급 이상: 3, 중급: 2, 초급: 1)',
+      'date': '(상급: 3, 중급: 2, 초급: 1)',
       'title': '',
       'contents': ['']
     }, {
