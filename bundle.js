@@ -752,6 +752,7 @@ module.exports = g;
 //
 //
 //
+//
 
 
 
@@ -9747,8 +9748,20 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", [_vm._v("010-5496-2733")]),
             _vm._v(" "),
-            _c("a", { attrs: { href: "https://github.com/KimWooHyun" } }, [
-              _vm._v("https://github.com/KimWooHyun")
+            _c("p", [
+              _vm._v("github - "),
+              _c("a", { attrs: { href: "https://github.com/KimWooHyun" } }, [
+                _vm._v("https://github.com/KimWooHyun")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v("portfolio - "),
+              _c(
+                "a",
+                { attrs: { href: "https://kimwoohyun.github.io/portfolio/" } },
+                [_vm._v("https://kimwoohyun.github.io/portfolio/")]
+              )
             ])
           ])
         ])

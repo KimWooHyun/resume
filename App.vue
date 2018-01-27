@@ -10,7 +10,8 @@
             <p>1996.11.05</p>
             <p>dngus242@gmail.com</p>
             <p>010-5496-2733</p>
-            <a href="https://github.com/KimWooHyun">https://github.com/KimWooHyun</a>
+            <p>github - <a href="https://github.com/KimWooHyun">https://github.com/KimWooHyun</a></p>
+            <p>portfolio - <a href="https://kimwoohyun.github.io/portfolio/">https://kimwoohyun.github.io/portfolio/</a></p>
           </div>
         </div>
       </section>
