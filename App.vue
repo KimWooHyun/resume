@@ -20,11 +20,11 @@
           <record-title title="자기소개"></record-title>
           <div v-html="contents.introduction"></div>
         </section>
-        <section class="col-12 section-contents" v-for="(value, key) in contents.contents" :key="value.id">
+        <section class="col-12 section-contents" v-for="(value, key) in contents.summary" :key="value.id">
           <record-title :title="key"></record-title>
           <record-list :title="key" :lists="value"></record-list>
         </section>
-        <section class="col-12 section-contents">
+        <section class="col-12 section-contents margin-bottom-0">
           <record-title title="상세 경력"></record-title>
           <section v-for="(detailContent, key) in contents.detailContents" :key="detailContent.id">
             <h2>{{key}}</h2>
@@ -44,6 +44,10 @@
               </section>
             </div>
           </section>
+        </section>
+        <section class="col-12 section-contents" v-for="(value, key) in contents.contents" :key="value.id">
+          <record-title :title="key"></record-title>
+          <record-list :title="key" :lists="value"></record-list>
         </section>
       </section>
     </div>
@@ -74,6 +78,9 @@ section {
   margin-bottom: 40px;
 }
 section:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+.margin-bottom-0 {
   margin-bottom: 0px;
 }
 .index {

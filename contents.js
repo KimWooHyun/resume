@@ -15,36 +15,6 @@ module.exports = {
     `
   ,
   contents: {
-    '경력 요약': [
-      {
-        'date': '2016.01 - 현재<br/>(2년 1개월)',
-        'title': 'ONE MOMENT (원모먼트)',
-        'contents': [
-          '주 - Front-end 개발',
-          '서브 - Swift, Django 개발'
-        ]
-      },
-      {
-        'date': '2014.12 - 2016.01<br/>(1년 2개월)',
-        'title': 'ATEAM VENTURES (에이팀벤쳐스)',
-        'contents': [
-          '주 - Front-end 개발',
-          '서브 - Django, Flask 개발'
-        ]
-      }
-    ],
-    '학력 사항': [
-      {
-        'date': '2016 - 현재',
-        'title': '한국방송통신대학교',
-        'contents': ['컴퓨터과학과 재학중']
-      },
-      {
-        'date': '2012 - 2015',
-        'title': '미림여자정보과학고등학교 (미림 마이스터고)',
-        'contents': ['인터랙티브 미디어과 졸업']
-      }
-    ],
     'Skill Set': [
       {
         'date': '(상급: 3, 중급: 2, 초급: 1)',
@@ -157,6 +127,38 @@ module.exports = {
           '- 행사 준비',
           '- 안내사이트 제작 참여',
           '- <a href="https://gdgsummerparty.firebaseapp.com">https://gdgsummerparty.firebaseapp.com</a>'
+        ]
+      }
+    ],
+    '학력 사항': [
+      {
+        'date': '2016 - 현재',
+        'title': '한국방송통신대학교',
+        'contents': ['컴퓨터과학과 재학중']
+      },
+      {
+        'date': '2012 - 2015',
+        'title': '미림여자정보과학고등학교 (미림 마이스터고)',
+        'contents': ['인터랙티브 미디어과 졸업']
+      }
+    ]
+  },
+  summary: {
+    '경력 요약': [
+      {
+        'date': '2016.01 - 현재<br/>(2년 1개월)',
+        'title': 'ONE MOMENT (원모먼트)',
+        'contents': [
+          '주 - Front-end 개발',
+          '서브 - Swift, Django 개발'
+        ]
+      },
+      {
+        'date': '2014.12 - 2016.01<br/>(1년 2개월)',
+        'title': 'ATEAM VENTURES (에이팀벤쳐스)',
+        'contents': [
+          '주 - Front-end 개발',
+          '서브 - Django, Flask 개발'
         ]
       }
     ]

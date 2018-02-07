@@ -753,6 +753,10 @@ module.exports = g;
 //
 //
 //
+//
+//
+//
+//
 
 
 
@@ -9114,7 +9118,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "\nsection[data-v-472cff63] {\n  margin-bottom: 40px;\n}\nsection[data-v-472cff63]:nth-last-child(1) {\n  margin-bottom: 0px;\n}\n.index[data-v-472cff63] {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: center;\n  padding: 30px 15px;\n  overflow: hidden;\n}\n.section-info[data-v-472cff63] {\n  text-align: right;\n}\n.section-info h1[data-v-472cff63],\n.section-info h4[data-v-472cff63] {\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.section-contents h5[data-v-472cff63] {\n  margin-bottom: 30px;\n  color: #9e9e9e;\n}\n.section-contents .div-sub-title[data-v-472cff63] {\n  margin-bottom: 40px;\n}\n.section-contents .div-sub-title h4[data-v-472cff63] {\n  margin-bottom: 10px;\n}\n@media (min-width: 480px) {\n.index[data-v-472cff63] {\n    padding: 30px;\n}\n}\n", ""]);
+exports.push([module.i, "\nsection[data-v-472cff63] {\n  margin-bottom: 40px;\n}\nsection[data-v-472cff63]:nth-last-child(1) {\n  margin-bottom: 0px;\n}\n.margin-bottom-0[data-v-472cff63] {\n  margin-bottom: 0px;\n}\n.index[data-v-472cff63] {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: center;\n  padding: 30px 15px;\n  overflow: hidden;\n}\n.section-info[data-v-472cff63] {\n  text-align: right;\n}\n.section-info h1[data-v-472cff63],\n.section-info h4[data-v-472cff63] {\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.section-contents h5[data-v-472cff63] {\n  margin-bottom: 30px;\n  color: #9e9e9e;\n}\n.section-contents .div-sub-title[data-v-472cff63] {\n  margin-bottom: 40px;\n}\n.section-contents .div-sub-title h4[data-v-472cff63] {\n  margin-bottom: 10px;\n}\n@media (min-width: 480px) {\n.index[data-v-472cff63] {\n    padding: 30px;\n}\n}\n", ""]);
 
 // exports
 
@@ -9213,24 +9217,6 @@ module.exports = {
     `,
 
   contents: {
-    '경력 요약': [{
-      'date': '2016.01 - 현재<br/>(2년 1개월)',
-      'title': 'ONE MOMENT (원모먼트)',
-      'contents': ['주 - Front-end 개발', '서브 - Swift, Django 개발']
-    }, {
-      'date': '2014.12 - 2016.01<br/>(1년 2개월)',
-      'title': 'ATEAM VENTURES (에이팀벤쳐스)',
-      'contents': ['주 - Front-end 개발', '서브 - Django, Flask 개발']
-    }],
-    '학력 사항': [{
-      'date': '2016 - 현재',
-      'title': '한국방송통신대학교',
-      'contents': ['컴퓨터과학과 재학중']
-    }, {
-      'date': '2012 - 2015',
-      'title': '미림여자정보과학고등학교 (미림 마이스터고)',
-      'contents': ['인터랙티브 미디어과 졸업']
-    }],
     'Skill Set': [{
       'date': '(상급: 3, 중급: 2, 초급: 1)',
       'title': '',
@@ -9289,6 +9275,26 @@ module.exports = {
       'date': '2017.07',
       'title': 'GDG Korea Campus summer party',
       'contents': ['GDG Korea Campus 스태프', '- 행사 준비', '- 안내사이트 제작 참여', '- <a href="https://gdgsummerparty.firebaseapp.com">https://gdgsummerparty.firebaseapp.com</a>']
+    }],
+    '학력 사항': [{
+      'date': '2016 - 현재',
+      'title': '한국방송통신대학교',
+      'contents': ['컴퓨터과학과 재학중']
+    }, {
+      'date': '2012 - 2015',
+      'title': '미림여자정보과학고등학교 (미림 마이스터고)',
+      'contents': ['인터랙티브 미디어과 졸업']
+    }]
+  },
+  summary: {
+    '경력 요약': [{
+      'date': '2016.01 - 현재<br/>(2년 1개월)',
+      'title': 'ONE MOMENT (원모먼트)',
+      'contents': ['주 - Front-end 개발', '서브 - Swift, Django 개발']
+    }, {
+      'date': '2014.12 - 2016.01<br/>(1년 2개월)',
+      'title': 'ATEAM VENTURES (에이팀벤쳐스)',
+      'contents': ['주 - Front-end 개발', '서브 - Django, Flask 개발']
     }]
   },
   detailContents: {
@@ -9643,7 +9649,7 @@ var render = function() {
             1
           ),
           _vm._v(" "),
-          _vm._l(_vm.contents.contents, function(value, key) {
+          _vm._l(_vm.contents.summary, function(value, key) {
             return _c(
               "section",
               { key: value.id, staticClass: "col-12 section-contents" },
@@ -9658,7 +9664,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "section",
-            { staticClass: "col-12 section-contents" },
+            { staticClass: "col-12 section-contents margin-bottom-0" },
             [
               _c("record-title", { attrs: { title: "상세 경력" } }),
               _vm._v(" "),
@@ -9718,7 +9724,20 @@ var render = function() {
               })
             ],
             2
-          )
+          ),
+          _vm._v(" "),
+          _vm._l(_vm.contents.contents, function(value, key) {
+            return _c(
+              "section",
+              { key: value.id, staticClass: "col-12 section-contents" },
+              [
+                _c("record-title", { attrs: { title: key } }),
+                _vm._v(" "),
+                _c("record-list", { attrs: { title: key, lists: value } })
+              ],
+              1
+            )
+          })
         ],
         2
       )
