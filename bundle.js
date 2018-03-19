@@ -9248,6 +9248,16 @@ module.exports = {
       'contents': ['- Swift library', '- <a href="https://github.com/KimWooHyun/WHLunarCalendar">https://github.com/KimWooHyun/WHLunarCalendar</a>', '- 한국 음력 달력 라이브러리', '- opensource']
     }],
     '개인 활동': [{
+      'date': '2018.02 - 현재',
+      'title': 'Women Techmakers KR 2018',
+      'img': '/pa/wtm-logo.png',
+      'contents': ['<strong>Women Techmakers KR 2018 오거나이저</strong>', '- 행사준비', '- 안내사이트 제작', '- <a href="https://wtm-korea-2018.firebaseapp.com/">https://wtm-korea-2018.firebaseapp.com/</a>']
+    }, {
+      'date': '2017.08 - 현재',
+      'title': 'DjangoCon KR 2018',
+      'img': '/pa/djangocon-logo.png',
+      'contents': ['<strong>DjangoCon KR 2018 오거나이저</strong>', '- 행사준비']
+    }, {
       'date': '2017.12',
       'title': 'Do it! Vue.js',
       'contents': ['vue.js 관련 책 기술 검토 및 자문', '서명: Do it! Vue.js 입문서', '저자: 장기효', '대상 독자: 프레임워크를 다뤄보지 않은 웹 개발 입문자, Vue.js를 배우고 싶은 대학생 & 퍼블리셔 & 실무자', '책 내용: 프론트엔드 개발 프레임워크인 Vue.js 소개, 뷰 기술요소 학습, 뷰를 이용한 실전 애플리케이션 제작']
@@ -9288,7 +9298,7 @@ module.exports = {
   },
   summary: {
     '경력 요약': [{
-      'date': '2016.01 - 현재<br/>(2년 1개월)',
+      'date': '2016.01 - 2018.01<br/>(2년 1개월)',
       'title': 'ONE MOMENT (원모먼트)',
       'contents': ['주 - Front-end 개발', '서브 - Swift, Django 개발']
     }, {
@@ -9299,30 +9309,45 @@ module.exports = {
   },
   detailContents: {
     'ONE MOMENT (원모먼트)': {
-      'date': '2016.01 - 현재',
+      'date': '2016.01 - 2018.01',
       'info': '90분 당일 꽃배달 서비스 “원모먼트 플라워” 를 서비스 중인 스타트업.',
       'service': ['Web<br /> - <a href="https://1moment.co.kr/">https://1moment.co.kr/</a> <br /> - 현재 Vue.js (SPA)로 개발된 사이트<br /><br />', 'iOS App<br /> - <a href="https://goo.gl/jP2ZYR">https://goo.gl/jP2ZYR</a>'],
       'project': {
         'project': [{
           'date': '2017.10 - 2018.01',
           'title': 'Nuxt.js 도입 및 SSR 지원',
-          'contents': ['원모먼트 서비스 사이트 전체 리뉴얼', '- Nuxt.js 도입 및 SSR 지원', '- css 프레임워크 제거 및 LESS 도입', '- 그리드 시스템 개발', '- 시멘틱 웹 표준 준수', '- axios 를 활용한 api call', '- PM2, ecosystem을 이용한 배포 자동화', '- 기여도 : 100%, 단독진행', 'stack: Vue.js, Nuxt.js, Less']
+          'contents': ['원모먼트 서비스 사이트 전체 리뉴얼', `
+              - 작업 리스트 : 
+              메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 정기구독 리스트 /  정기구독 등록 / 주문 / 주문 확인 / 마이페이지 - 기념일 / 마이페이지 - 주문리스트 / 마이페이지 - 주문상세 / 마이페이지 - 프로필 / 마이페이지 - 프로필 수정 / 적립금  / 마이페이지 - 간편결제 카드 관리 / 마이페이지 - 주소록 리스트 / 마이페이지 - 주소록 / FAQ / 이용약관 / 채용 / 회사소개 / 기획전
+              `, '- Nuxt.js 도입 및 SSR 지원', '- css 프레임워크 제거 및 LESS 도입', '- 그리드 시스템 개발', '- 시멘틱 웹 표준 준수', '- axios 를 활용한 api call', '- PM2, ecosystem을 이용한 배포 자동화', '- 기여도 : 100%, 단독진행', 'stack: Vue.js, Nuxt.js, Less']
         }, {
           'date': '2017.02 - 2017.03',
           'title': 'Vue.js 도입',
-          'contents': ['원모먼트 서비스 사이트 전체 리뉴얼', '- Vue.js (SPA) 도입', '- 비동기 처리를 이용한 서비스 속도 개선', '- vue-resource 를 활용한 api call', '- 기여도 : 45%', 'stack: Vue.js, Bootstrap 4, Bootstrap 3, jQuery']
+          'contents': ['원모먼트 서비스 사이트 전체 리뉴얼', `
+              - 작업 리스트 : 
+              메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 정기구독 리스트 /  정기구독 등록 / 적립금 / FAQ / 이용약관 / 채용 / 회사소개 / 기획전
+              `, '- Vue.js (SPA) 도입', '- 비동기 처리를 이용한 서비스 속도 개선', '- vue-resource 를 활용한 api call', '- 기여도 : 45%', 'stack: Vue.js, Bootstrap 4, Bootstrap 3, jQuery']
         }, {
           'date': '2016.06 - 2017.11',
           'title': 'iOS App 런칭',
-          'contents': ['iOS App 런칭', '- Auto Layout을 이용한 반응형 앱 개발', '- iTunes Connect 배포 및 버전 관리', '- cocoapods 를 활용한 라이브러리 디펜던시 관리', '- alamofire 를 활용한 api call', '- 기여도 : 100%, 단독진행', 'stack: Swift, cocoapods']
+          'contents': ['iOS App 런칭', `
+              - 작업 리스트 : 
+              메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 주문 / 주문 확인 / 마이페이지 - 주문리스트 / 마이페이지 - 주문상세 / 마이페이지 - 프로필 / 마이페이지 - 프로필 수정 / 마이페이지 - 주소록 리스트 / 마이페이지 - 주소록 / FAQ / 이용약관 / 채용 / 회사소개 / 기획전
+              `, '- Auto Layout을 이용한 반응형 앱 개발', '- iTunes Connect 배포 및 버전 관리', '- cocoapods 를 활용한 라이브러리 디펜던시 관리', '- alamofire 를 활용한 api call', '- 기여도 : 100%, 단독진행', 'stack: Swift, cocoapods']
         }, {
           'date': '2016.01 - 2016.03',
           'title': '관리자 페이지',
-          'contents': ['원모먼트 서비스 관리자 페이지 제작 및 유지보수', '- Django template을 이용한 front-end 개발', '- 기여도 : 30%', 'stack: Django']
+          'contents': ['원모먼트 서비스 관리자 페이지 제작 및 유지보수', `
+              - 작업 리스트 : 
+              퀵사 연동 / 주문 내역 (운영팀/플라워팀) / 퀵 주문 내역 / 주문 리포트 / 기념일 리포트 / 기획전 생성 페이지
+              `, '- Django template을 이용한 front-end 개발', '- 기여도 : 30%', 'stack: Django']
         }, {
           'date': '2016.01 - 2016.03',
           'title': '웹 서비스 런칭',
-          'contents': ['원모먼트 서비스 런칭', '- Django template을 이용한 front-end 개발', '- 기여도 : 100%, 단독진행', 'stack: HTML5, CSS3, JavaScript, jQuery, Django']
+          'contents': ['원모먼트 서비스 런칭', `
+              - 작업 리스트 : 
+              메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 주문 / 주문 확인 / 마이페이지 - 주문리스트 / 마이페이지 - 주문상세 / 마이페이지 - 프로필 / 마이페이지 - 프로필 수정 / 마이페이지 - 주소록 리스트 / 마이페이지 - 주소록 / FAQ / 이용약관 / 회사소개
+              `, '- Django template을 이용한 front-end 개발', '- 기여도 : 100%, 단독진행', 'stack: HTML5, CSS3, JavaScript, jQuery, Django']
         }]
       }
     },
@@ -9340,15 +9365,15 @@ module.exports = {
         'project': [{
           'date': '2015.07 - 2016.01',
           'title': 'shapEngine 웹 서비스 리뉴얼',
-          'contents': ['shapEngine 웹 서비스 리뉴얼', '- Django로 리팩토링', '- 기여도 : 25%', 'stack: Django, Jinja2, HTML5, CSS3, JavaScript']
+          'contents': ['shapEngine 웹 서비스 리뉴얼', '- 작업 리스트 : 메인 / 프린터 등록 / 채팅 ', '- Django로 리팩토링', '- 기여도 : 25%', 'stack: Django, Jinja2, HTML5, CSS3, JavaScript']
         }, {
           'date': '2015.06 - 2015.06',
           'title': 'creatable labs 웹 서비스 제작',
-          'contents': ['creatable labs 웹 서비스 제작', '- 워드프레스로 제작', '- 기여도 : 10%', 'stack: HTML5, CSS3']
+          'contents': ['creatable labs 웹 서비스 제작', '- 작업 리스트 : 블로그 페이지 제작', '- 워드프레스로 제작', '- 기여도 : 10%', 'stack: HTML5, CSS3']
         }, {
           'date': '2014.12 - 2015.06',
           'title': 'shapEngine 웹 서비스 제작',
-          'contents': ['shapEngine 웹 서비스 제작', '- 3D Printer 를 보유 한 사람이 프린터를 등록 할 수 있는 프로세스 개발', '- Jinja2을 이용한 front-end 개발', '- 기여도 : 25%', 'stack: Flask, Jinja2, HTML5, CSS3, JavaScript']
+          'contents': ['shapEngine 웹 서비스 제작', '- 작업 리스트 : 메인 / 프린터 등록 / 채팅', '- 3D Printer 를 보유 한 사람이 프린터를 등록 할 수 있는 프로세스 개발', '- Jinja2을 이용한 front-end 개발', '- 기여도 : 25%', 'stack: Flask, Jinja2, HTML5, CSS3, JavaScript']
         }]
       }
     }
