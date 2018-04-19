@@ -769,8 +769,16 @@ module.exports = g;
   },
   computed: {
     transformCareer() {
-      let month = parseInt(this.career % 12);
-      return month == 0 ? parseInt(this.career / 12) + "년 경력" : parseInt(this.career / 12) + "년 " + month + "개월 경력";
+      const year = parseInt(this.career / 12);
+      const month = parseInt(this.career % 12);
+      let career = '';
+      if (year != 0) {
+        career += year + '년 ';
+      }
+      if (month != 0) {
+        career += month + '개월';
+      }
+      return career + " 경력";
     }
   },
   data() {
@@ -9165,7 +9173,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "\nsection[data-v-7ba5bd90] {\n  margin-bottom: 40px;\n}\nsection[data-v-7ba5bd90]:nth-last-child(1) {\n  margin-bottom: 0px;\n}\n.margin-bottom-0[data-v-7ba5bd90] {\n  margin-bottom: 0px;\n}\n.index[data-v-7ba5bd90] {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: center;\n  padding: 30px 15px;\n  overflow: hidden;\n}\n.section-info[data-v-7ba5bd90] {\n  text-align: right;\n}\n.section-info h1[data-v-7ba5bd90],\n.section-info h4[data-v-7ba5bd90] {\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.section-contents h5[data-v-7ba5bd90] {\n  margin-bottom: 30px;\n  color: #9e9e9e;\n}\n.section-contents .div-sub-title[data-v-7ba5bd90] {\n  margin-bottom: 40px;\n}\n.section-contents .div-sub-title h4[data-v-7ba5bd90] {\n  margin-bottom: 10px;\n}\n@media (min-width: 480px) {\n.index[data-v-7ba5bd90] {\n    padding: 30px;\n}\n}\n", ""]);
+exports.push([module.i, "\nsection[data-v-7ba5bd90] {\n  margin-bottom: 40px;\n}\nsection[data-v-7ba5bd90]:nth-last-child(1) {\n  margin-bottom: 0px;\n}\n.margin-bottom-0[data-v-7ba5bd90] {\n  margin-bottom: 0px;\n}\n.index[data-v-7ba5bd90] {\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: center;\n  padding: 30px 15px;\n  margin: 30px auto;\n  overflow: hidden;\n}\n.section-info[data-v-7ba5bd90] {\n  text-align: right;\n}\n.section-info h1[data-v-7ba5bd90],\n.section-info h4[data-v-7ba5bd90] {\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n.section-contents h5[data-v-7ba5bd90] {\n  margin-bottom: 30px;\n  color: #9e9e9e;\n}\n.section-contents .div-sub-title[data-v-7ba5bd90] {\n  margin-bottom: 40px;\n}\n.section-contents .div-sub-title h4[data-v-7ba5bd90] {\n  margin-bottom: 10px;\n}\n@media (min-width: 480px) {\n.index[data-v-7ba5bd90] {\n    padding: 30px;\n}\n}\n", ""]);
 
 // exports
 
@@ -9712,8 +9720,8 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("section", { staticClass: "index" }, [
-    _c("div", { staticClass: "container col-12" }, [
+  return _c("section", { staticClass: "container index" }, [
+    _c("div", { staticClass: "col-12 col-p-12" }, [
       _c(
         "section",
         {
