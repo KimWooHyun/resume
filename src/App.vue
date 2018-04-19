@@ -1,6 +1,6 @@
 <template>
-  <section class="index">
-    <div class="container col-12">
+  <section class="container index">
+    <div class="col-12 col-p-12">
       <section class="section-info flex flex-wrap flex-jc-end col-12 col-p-12">
         <div>
           <h1>{{contents.profile.name}}</h1>
@@ -66,8 +66,12 @@ export default {
   },
   computed: {
     transformCareer () {
-      let month = parseInt(this.career % 12)
-      return month == 0 ? parseInt(this.career / 12) + "년 경력" : parseInt(this.career / 12) + "년 " + month + "개월 경력"
+      const year = parseInt(this.career / 12)
+      const month = parseInt(this.career % 12)
+      let career = ''
+      if (year != 0) { career += year + '년 ' }
+      if (month != 0) { career += month + '개월' }
+      return career + " 경력"
     }
   },
   data () {
@@ -100,6 +104,7 @@ section:nth-last-child(1) {
   align-items: center;
   justify-content: center;
   padding: 30px 15px;
+  margin: 30px auto;
   overflow: hidden;
 }
 .section-info {
