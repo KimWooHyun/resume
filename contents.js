@@ -177,6 +177,13 @@ module.exports = {
   summary: {
     '경력 요약': [
       {
+        'date': ['2018.04', '현재'],
+        'title': 'Spoqa (스포카)',
+        'contents': [
+          '주 - Front-end 개발'
+        ]
+      },
+      {
         'date': ['2016.01', '2018.01'],
         'title': 'ONE MOMENT (원모먼트)',
         'contents': [

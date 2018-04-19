@@ -26,16 +26,17 @@ export default {
     }
   },
   created () {
-    let date = ''
     for (let list in this.lists) {
+      let date = ''
       if (typeof(this.lists[list].date) == "object") {
         let date1 = new Date(this.lists[list].date[0])
-        let date2 = new Date(this.lists[list].date[1])
+        let date2 = this.lists[list].date[1] == "현재" ? new Date() : new Date(this.lists[list].date[1])
         let diff = parseInt((date2 - date1) / (24 * 60 * 60 * 1000 * 30)) + 1
         let year = parseInt(diff / 12)
         let month = parseInt(diff % 12)
-        let defaultDate = this.lists[list].date[0] + ' - ' + this.lists[list].date[1]
-        date = month == 0 ? defaultDate + '<br/>(' + year + "년)" : defaultDate + '<br/>(' + year + "년 " + month + "개월)"
+        date += this.lists[list].date[0] + ' - ' + this.lists[list].date[1] + '<br/>'
+        if (year != 0) { date += year + '년 ' }
+        if (month != 0) { date += month + '개월' }
         this.$event.emitCareerAdd(diff)
       } else {
         date = this.lists[list].date
