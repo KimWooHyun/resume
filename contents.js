@@ -2,7 +2,6 @@ module.exports = {
   profile: {
     name: '김우현',
     description: 'Front-end developer',
-    career: '3년 3개월 경력',
     dateOfBirth: '1996.11.05',
     email: 'dngus242@gmail.com',
     phoneNumber: '010-5496-2733',
@@ -178,7 +177,14 @@ module.exports = {
   summary: {
     '경력 요약': [
       {
-        'date': '2016.01 - 2018.01<br/>(2년 1개월)',
+        'date': ['2018.04', '현재'],
+        'title': 'Spoqa (스포카)',
+        'contents': [
+          '주 - Front-end 개발'
+        ]
+      },
+      {
+        'date': ['2016.01', '2018.01'],
         'title': 'ONE MOMENT (원모먼트)',
         'contents': [
           '주 - Front-end 개발',
@@ -186,7 +192,7 @@ module.exports = {
         ]
       },
       {
-        'date': '2014.12 - 2016.01<br/>(1년 2개월)',
+        'date': ['2014.12', '2016.01'],
         'title': 'ATEAM VENTURES (에이팀벤쳐스)',
         'contents': [
           '주 - Front-end 개발',
