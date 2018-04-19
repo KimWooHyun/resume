@@ -756,7 +756,6 @@ module.exports = g;
 //
 //
 //
-//
 
 
 
@@ -769,9 +768,7 @@ module.exports = g;
     RecordTitle: __WEBPACK_IMPORTED_MODULE_2__components_RecordTitle_vue__["a" /* default */]
   },
   data() {
-    return {
-      contents: __WEBPACK_IMPORTED_MODULE_0__contents_js___default.a
-    };
+    return __WEBPACK_IMPORTED_MODULE_0__contents_js___default.a;
   }
 });
 
@@ -9191,7 +9188,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 exports.push([module.i, "@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);", ""]);
 
 // module
-exports.push([module.i, "/* reset css */\n/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml,\nbody,\ndiv,\nspan,\napplet,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\na,\nabbr,\nacronym,\naddress,\nbig,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\ns,\nsamp,\nsmall,\nstrike,\nstrong,\nsub,\nsup,\ntt,\nvar,\nb,\nu,\ni,\ncenter,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nembed,\nfigure,\nfigcaption,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\noutput,\nruby,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection {\n  display: block;\n}\nbody {\n  line-height: 1;\n}\nol,\nul {\n  list-style: none;\n}\nblockquote,\nq {\n  quotes: none;\n}\nblockquote:before,\nblockquote:after,\nq:before,\nq:after {\n  content: '';\n  content: none;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n/* custom */\n* {\n  box-sizing: border-box;\n}\nbody {\n  background-color: #f3f3f3;\n  line-height: 1.5;\n  color: #4a4a4a;\n  font-family: 'Noto Sans KR';\n}\nh1 {\n  font-size: 26px;\n  font-weight: bold;\n}\nh2 {\n  font-size: 22px;\n  font-weight: bold;\n}\nh3 {\n  font-size: 18px;\n  font-weight: bold;\n}\nh4 {\n  font-size: 16px;\n  font-weight: bold;\n}\nh5 {\n  font-size: 14px;\n  font-weight: bold;\n}\na,\na:focus,\na:visited,\na:active,\na:hover {\n  color: #4a4a4a;\n  overflow-wrap: break-word;\n  word-wrap: break-word;\n  word-break: break-all;\n}\n.container {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1140px;\n  margin: 0 auto;\n  padding: 30px 15px;\n  background-color: #ffffff;\n  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);\n}\n.flex {\n  display: flex;\n}\n.flex-wrap {\n  flex-wrap: wrap;\n}\n.flex-jc-start {\n  justify-content: flex-start;\n}\n.flex-jc-center {\n  justify-content: center;\n}\n.flex-jc-end {\n  justify-content: flex-end;\n}\n.flex-ai-start {\n  align-items: flex-start;\n}\n.flex-ai-center {\n  align-items: center;\n}\n.flex-dir-column {\n  flex-direction: column;\n}\n.flex-dir-row-reverse {\n  flex-direction: row-reverse;\n}\n.col-1 {\n  max-width: 8.333333%;\n  flex: 0 0 8.333333%;\n}\n.col-2 {\n  max-width: 16.666667%;\n  flex: 0 0 16.666667%;\n}\n.col-3 {\n  max-width: 25%;\n  flex: 0 0 25%;\n}\n.col-4 {\n  max-width: 33.333333%;\n  flex: 0 0 33.333333%;\n}\n.col-5 {\n  max-width: 41.666667%;\n  flex: 0 0 41.666667%;\n}\n.col-6 {\n  max-width: 50%;\n  flex: 0 0 50%;\n}\n.col-7 {\n  max-width: 58.333333%;\n  flex: 0 0 58.333333%;\n}\n.col-8 {\n  max-width: 66.666667%;\n  flex: 0 0 66.666667%;\n}\n.col-9 {\n  max-width: 75%;\n  flex: 0 0 75%;\n}\n.col-10 {\n  max-width: 83.333333%;\n  flex: 0 0 83.333333%;\n}\n.col-11 {\n  max-width: 91.666667%;\n  flex: 0 0 91.666667%;\n}\n.col-12 {\n  max-width: 100%;\n  flex: 0 0 100%;\n}\n@media (min-width: 480px) {\n.col-p-1 {\n    max-width: 8.333333%;\n    flex: 0 0 8.333333%;\n}\n.col-p-2 {\n    max-width: 16.666667%;\n    flex: 0 0 16.666667%;\n}\n.col-p-3 {\n    max-width: 25%;\n    flex: 0 0 25%;\n}\n.col-p-4 {\n    max-width: 33.333333%;\n    flex: 0 0 33.333333%;\n}\n.col-p-5 {\n    max-width: 41.666667%;\n    flex: 0 0 41.666667%;\n}\n.col-p-6 {\n    max-width: 50%;\n    flex: 0 0 50%;\n}\n.col-p-7 {\n    max-width: 58.333333%;\n    flex: 0 0 58.333333%;\n}\n.col-p-8 {\n    max-width: 66.666667%;\n    flex: 0 0 66.666667%;\n}\n.col-p-9 {\n    max-width: 75%;\n    flex: 0 0 75%;\n}\n.col-p-10 {\n    max-width: 83.333333%;\n    flex: 0 0 83.333333%;\n}\n.col-p-11 {\n    max-width: 91.666667%;\n    flex: 0 0 91.666667%;\n}\n.col-p-12 {\n    max-width: 100%;\n    flex: 0 0 100%;\n}\n.container {\n    padding: 40px;\n}\n}\n", ""]);
+exports.push([module.i, "/* reset css */\n/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml,\nbody,\ndiv,\nspan,\napplet,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\na,\nabbr,\nacronym,\naddress,\nbig,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\ns,\nsamp,\nsmall,\nstrike,\nstrong,\nsub,\nsup,\ntt,\nvar,\nb,\nu,\ni,\ncenter,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nembed,\nfigure,\nfigcaption,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\noutput,\nruby,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection {\n  display: block;\n}\nbody {\n  line-height: 1;\n}\nol,\nul {\n  list-style: none;\n}\nblockquote,\nq {\n  quotes: none;\n}\nblockquote:before,\nblockquote:after,\nq:before,\nq:after {\n  content: '';\n  content: none;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n/* custom */\n* {\n  box-sizing: border-box;\n}\nbody {\n  background-color: #f3f3f3;\n  line-height: 1.5;\n  color: #4a4a4a;\n  font-family: 'Noto Sans KR';\n}\nh1 {\n  font-size: 26px;\n  font-weight: bold;\n}\nh2 {\n  font-size: 22px;\n  font-weight: bold;\n}\nh3 {\n  font-size: 18px;\n  font-weight: bold;\n}\nh4 {\n  font-size: 16px;\n  font-weight: bold;\n}\nh5 {\n  font-size: 14px;\n  font-weight: bold;\n}\na,\na:focus,\na:visited,\na:active,\na:hover {\n  color: #4a4a4a;\n  overflow-wrap: break-word;\n  word-wrap: break-word;\n  word-break: break-all;\n}\n.container {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1140px;\n  margin: 0 auto;\n  padding: 30px 15px;\n  background-color: #ffffff;\n  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);\n}\n.flex {\n  display: flex;\n}\n.flex-wrap {\n  flex-wrap: wrap;\n}\n.flex-jc-start {\n  justify-content: flex-start;\n}\n.flex-jc-center {\n  justify-content: center;\n}\n.flex-jc-end {\n  justify-content: flex-end;\n}\n.flex-ai-start {\n  align-items: flex-start;\n}\n.flex-ai-center {\n  align-items: center;\n}\n.flex-dir-column {\n  flex-direction: column;\n}\n.flex-dir-row-reverse {\n  flex-direction: row-reverse;\n}\n.col-1 {\n  max-width: 8.333333%;\n  flex: 0 0 8.333333%;\n}\n.col-2 {\n  max-width: 16.666667%;\n  flex: 0 0 16.666667%;\n}\n.col-3 {\n  max-width: 25%;\n  flex: 0 0 25%;\n}\n.col-4 {\n  max-width: 33.333333%;\n  flex: 0 0 33.333333%;\n}\n.col-5 {\n  max-width: 41.666667%;\n  flex: 0 0 41.666667%;\n}\n.col-6 {\n  max-width: 50%;\n  flex: 0 0 50%;\n}\n.col-7 {\n  max-width: 58.333333%;\n  flex: 0 0 58.333333%;\n}\n.col-8 {\n  max-width: 66.666667%;\n  flex: 0 0 66.666667%;\n}\n.col-9 {\n  max-width: 75%;\n  flex: 0 0 75%;\n}\n.col-10 {\n  max-width: 83.333333%;\n  flex: 0 0 83.333333%;\n}\n.col-11 {\n  max-width: 91.666667%;\n  flex: 0 0 91.666667%;\n}\n.col-12 {\n  max-width: 100%;\n  flex: 0 0 100%;\n}\n@media (min-width: 480px) {\n.col-p-1 {\n    max-width: 8.333333%;\n    flex: 0 0 8.333333%;\n}\n.col-p-2 {\n    max-width: 16.666667%;\n    flex: 0 0 16.666667%;\n}\n.col-p-3 {\n    max-width: 25%;\n    flex: 0 0 25%;\n}\n.col-p-4 {\n    max-width: 33.333333%;\n    flex: 0 0 33.333333%;\n}\n.col-p-5 {\n    max-width: 41.666667%;\n    flex: 0 0 41.666667%;\n}\n.col-p-6 {\n    max-width: 50%;\n    flex: 0 0 50%;\n}\n.col-p-7 {\n    max-width: 58.333333%;\n    flex: 0 0 58.333333%;\n}\n.col-p-8 {\n    max-width: 66.666667%;\n    flex: 0 0 66.666667%;\n}\n.col-p-9 {\n    max-width: 75%;\n    flex: 0 0 75%;\n}\n.col-p-10 {\n    max-width: 83.333333%;\n    flex: 0 0 83.333333%;\n}\n.col-p-11 {\n    max-width: 91.666667%;\n    flex: 0 0 91.666667%;\n}\n.col-p-12 {\n    max-width: 100%;\n    flex: 0 0 100%;\n}\n.container {\n    padding: 40px;\n}\n}\n", ""]);
 
 // exports
 
@@ -9201,6 +9198,15 @@ exports.push([module.i, "/* reset css */\n/* http://meyerweb.com/eric/tools/css/
 /***/ (function(module, exports) {
 
 module.exports = {
+  profile: {
+    name: '김우현',
+    description: 'Front-end developer',
+    career: '3년 3개월 경력',
+    dateOfBirth: '1996.11.05',
+    email: 'dngus242@gmail.com',
+    phoneNumber: '010-5496-2733',
+    links: [{ name: 'github', href: 'https://github.com/KimWooHyun' }, { name: 'portfolio', href: 'https://kimwoohyun.github.io/portfolio/' }]
+  },
   introduction: `
     2014년부터 Front-End 개발을 하고 있는 김우현입니다.<br />
     마크업과 Vue.js를 이용한 Front-End 개발에 관해 관심이 많으며 최근에는 flex와 크로스 브라우징, 반응형 웹과 사용자 인터랙션에도 관심을 두고 있습니다.<br />
@@ -9317,35 +9323,35 @@ module.exports = {
           'date': '2017.10 - 2018.01',
           'title': 'Nuxt.js 도입 및 SSR 지원',
           'contents': ['원모먼트 서비스 사이트 전체 리뉴얼', `
-              - 작업 리스트 : 
+              - 작업 리스트 :
               메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 정기구독 리스트 /  정기구독 등록 / 주문 / 주문 확인 / 마이페이지 - 기념일 / 마이페이지 - 주문리스트 / 마이페이지 - 주문상세 / 마이페이지 - 프로필 / 마이페이지 - 프로필 수정 / 적립금  / 마이페이지 - 간편결제 카드 관리 / 마이페이지 - 주소록 리스트 / 마이페이지 - 주소록 / FAQ / 이용약관 / 채용 / 회사소개 / 기획전
               `, '- Nuxt.js 도입 및 SSR 지원', '- css 프레임워크 제거 및 LESS 도입', '- 그리드 시스템 개발', '- 시멘틱 웹 표준 준수', '- axios 를 활용한 api call', '- PM2, ecosystem을 이용한 배포 자동화', '- 기여도 : 100%, 단독진행', 'stack: Vue.js, Nuxt.js, Less']
         }, {
           'date': '2017.02 - 2017.03',
           'title': 'Vue.js 도입',
           'contents': ['원모먼트 서비스 사이트 전체 리뉴얼', `
-              - 작업 리스트 : 
+              - 작업 리스트 :
               메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 정기구독 리스트 /  정기구독 등록 / 적립금 / FAQ / 이용약관 / 채용 / 회사소개 / 기획전
               `, '- Vue.js (SPA) 도입', '- 비동기 처리를 이용한 서비스 속도 개선', '- vue-resource 를 활용한 api call', '- 기여도 : 45%', 'stack: Vue.js, Bootstrap 4, Bootstrap 3, jQuery']
         }, {
           'date': '2016.06 - 2017.11',
           'title': 'iOS App 런칭',
           'contents': ['iOS App 런칭', `
-              - 작업 리스트 : 
+              - 작업 리스트 :
               메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 주문 / 주문 확인 / 마이페이지 - 주문리스트 / 마이페이지 - 주문상세 / 마이페이지 - 프로필 / 마이페이지 - 프로필 수정 / 마이페이지 - 주소록 리스트 / 마이페이지 - 주소록 / FAQ / 이용약관 / 채용 / 회사소개 / 기획전
               `, '- Auto Layout을 이용한 반응형 앱 개발', '- iTunes Connect 배포 및 버전 관리', '- cocoapods 를 활용한 라이브러리 디펜던시 관리', '- alamofire 를 활용한 api call', '- 기여도 : 100%, 단독진행', 'stack: Swift, cocoapods']
         }, {
           'date': '2016.01 - 2016.03',
           'title': '관리자 페이지',
           'contents': ['원모먼트 서비스 관리자 페이지 제작 및 유지보수', `
-              - 작업 리스트 : 
+              - 작업 리스트 :
               퀵사 연동 / 주문 내역 (운영팀/플라워팀) / 퀵 주문 내역 / 주문 리포트 / 기념일 리포트 / 기획전 생성 페이지
               `, '- Django template을 이용한 front-end 개발', '- 기여도 : 30%', 'stack: Django']
         }, {
           'date': '2016.01 - 2016.03',
           'title': '웹 서비스 런칭',
           'contents': ['원모먼트 서비스 런칭', `
-              - 작업 리스트 : 
+              - 작업 리스트 :
               메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 주문 / 주문 확인 / 마이페이지 - 주문리스트 / 마이페이지 - 주문상세 / 마이페이지 - 프로필 / 마이페이지 - 프로필 수정 / 마이페이지 - 주소록 리스트 / 마이페이지 - 주소록 / FAQ / 이용약관 / 회사소개
               `, '- Django template을 이용한 front-end 개발', '- 기여도 : 100%, 단독진행', 'stack: HTML5, CSS3, JavaScript, jQuery, Django']
         }]
@@ -9655,7 +9661,42 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("section", { staticClass: "index" }, [
     _c("div", { staticClass: "container col-12" }, [
-      _vm._m(0),
+      _c(
+        "section",
+        {
+          staticClass: "section-info flex flex-wrap flex-jc-end col-12 col-p-12"
+        },
+        [
+          _c("div", [
+            _c("h1", [_vm._v(_vm._s(_vm.profile.name))]),
+            _vm._v(" "),
+            _c("h4", [_vm._v(_vm._s(_vm.profile.description))]),
+            _vm._v(" "),
+            _c(
+              "div",
+              [
+                _c("p", [_vm._v(_vm._s(_vm.profile.career))]),
+                _vm._v(" "),
+                _c("p", [_vm._v(_vm._s(_vm.profile.dateOfBirth))]),
+                _vm._v(" "),
+                _c("p", [_vm._v(_vm._s(_vm.profile.email))]),
+                _vm._v(" "),
+                _c("p", [_vm._v(_vm._s(_vm.profile.phoneNumber))]),
+                _vm._v(" "),
+                _vm._l(_vm.profile.links, function(link) {
+                  return _c("p", [
+                    _vm._v(_vm._s(link.name) + " - "),
+                    _c("a", { attrs: { href: link.href } }, [
+                      _vm._v(_vm._s(link.href))
+                    ])
+                  ])
+                })
+              ],
+              2
+            )
+          ])
+        ]
+      ),
       _vm._v(" "),
       _c(
         "section",
@@ -9667,14 +9708,12 @@ var render = function() {
             [
               _c("record-title", { attrs: { title: "자기소개" } }),
               _vm._v(" "),
-              _c("div", {
-                domProps: { innerHTML: _vm._s(_vm.contents.introduction) }
-              })
+              _c("div", { domProps: { innerHTML: _vm._s(_vm.introduction) } })
             ],
             1
           ),
           _vm._v(" "),
-          _vm._l(_vm.contents.summary, function(value, key) {
+          _vm._l(_vm.summary, function(value, key) {
             return _c(
               "section",
               { key: value.id, staticClass: "col-12 section-contents" },
@@ -9693,7 +9732,7 @@ var render = function() {
             [
               _c("record-title", { attrs: { title: "상세 경력" } }),
               _vm._v(" "),
-              _vm._l(_vm.contents.detailContents, function(detailContent, key) {
+              _vm._l(_vm.detailContents, function(detailContent, key) {
                 return _c("section", { key: detailContent.id }, [
                   _c("h2", [_vm._v(_vm._s(key))]),
                   _vm._v(" "),
@@ -9751,7 +9790,7 @@ var render = function() {
             2
           ),
           _vm._v(" "),
-          _vm._l(_vm.contents.contents, function(value, key) {
+          _vm._l(_vm.contents, function(value, key) {
             return _c(
               "section",
               { key: value.id, staticClass: "col-12 section-contents" },
@@ -9769,52 +9808,7 @@ var render = function() {
     ])
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "section",
-      {
-        staticClass: "section-info flex flex-wrap flex-jc-end col-12 col-p-12"
-      },
-      [
-        _c("div", [
-          _c("h1", [_vm._v("김우현")]),
-          _vm._v(" "),
-          _c("h4", [_vm._v("Front-end developer")]),
-          _vm._v(" "),
-          _c("div", [
-            _c("p", [_vm._v("3년 3개월 경력")]),
-            _vm._v(" "),
-            _c("p", [_vm._v("1996.11.05")]),
-            _vm._v(" "),
-            _c("p", [_vm._v("dngus242@gmail.com")]),
-            _vm._v(" "),
-            _c("p", [_vm._v("010-5496-2733")]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v("github - "),
-              _c("a", { attrs: { href: "https://github.com/KimWooHyun" } }, [
-                _vm._v("https://github.com/KimWooHyun")
-              ])
-            ]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v("portfolio - "),
-              _c(
-                "a",
-                { attrs: { href: "https://kimwoohyun.github.io/portfolio/" } },
-                [_vm._v("https://kimwoohyun.github.io/portfolio/")]
-              )
-            ])
-          ])
-        ])
-      ]
-    )
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);

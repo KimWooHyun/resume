@@ -1,4 +1,16 @@
 module.exports = {
+  profile: {
+    name: '김우현',
+    description: 'Front-end developer',
+    career: '3년 3개월 경력',
+    dateOfBirth: '1996.11.05',
+    email: 'dngus242@gmail.com',
+    phoneNumber: '010-5496-2733',
+    links: [
+      {name: 'github', href: 'https://github.com/KimWooHyun'},
+      {name: 'portfolio', href: 'https://kimwoohyun.github.io/portfolio/'}
+    ]
+  },
   introduction: `
     2014년부터 Front-End 개발을 하고 있는 김우현입니다.<br />
     마크업과 Vue.js를 이용한 Front-End 개발에 관해 관심이 많으며 최근에는 flex와 크로스 브라우징, 반응형 웹과 사용자 인터랙션에도 관심을 두고 있습니다.<br />
