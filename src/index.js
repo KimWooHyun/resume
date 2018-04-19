@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Bus from './bus.js'
+import Bus from './plugins/bus.js'
 
 Vue.use(Bus)
 
