@@ -4,7 +4,6 @@ module.exports = {
     description: 'Front-end developer',
     dateOfBirth: '1996.11.05',
     email: 'dngus242@gmail.com',
-    phoneNumber: '010-5496-2733',
     links: [
       {name: 'github', href: 'https://github.com/KimWooHyun'},
       {name: 'portfolio', href: 'https://kimwoohyun.github.io/portfolio/'}

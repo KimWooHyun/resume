@@ -9,7 +9,6 @@
             <p>{{transformCareer}}</p>
             <p>{{contents.profile.dateOfBirth}}</p>
             <p>{{contents.profile.email}}</p>
-            <p>{{contents.profile.phoneNumber}}</p>
             <p v-for="link of contents.profile.links" :key="link.id">{{link.name}} - <a :href="link.href">{{link.href}}</a></p>
           </div>
         </div>

@@ -755,7 +755,6 @@ module.exports = g;
 //
 //
 //
-//
 
 
 
@@ -830,8 +829,8 @@ module.exports = g;
     for (let list in this.lists) {
       let date = '';
       if (typeof this.lists[list].date == "object") {
-        let date1 = new Date(this.lists[list].date[0]);
-        let date2 = this.lists[list].date[1] == "현재" ? new Date() : new Date(this.lists[list].date[1]);
+        let date1 = new Date(this.lists[list].date[0].replace('.', '-'));
+        let date2 = this.lists[list].date[1] == "현재" ? new Date() : new Date(this.lists[list].date[1].replace('.', '-'));
         let diff = parseInt((date2 - date1) / (24 * 60 * 60 * 1000 * 30)) + 1;
         let year = parseInt(diff / 12);
         let month = parseInt(diff % 12);
@@ -9261,7 +9260,6 @@ module.exports = {
     description: 'Front-end developer',
     dateOfBirth: '1996.11.05',
     email: 'dngus242@gmail.com',
-    phoneNumber: '010-5496-2733',
     links: [{ name: 'github', href: 'https://github.com/KimWooHyun' }, { name: 'portfolio', href: 'https://kimwoohyun.github.io/portfolio/' }]
   },
   introduction: `
@@ -9741,8 +9739,6 @@ var render = function() {
                 _c("p", [_vm._v(_vm._s(_vm.contents.profile.dateOfBirth))]),
                 _vm._v(" "),
                 _c("p", [_vm._v(_vm._s(_vm.contents.profile.email))]),
-                _vm._v(" "),
-                _c("p", [_vm._v(_vm._s(_vm.contents.profile.phoneNumber))]),
                 _vm._v(" "),
                 _vm._l(_vm.contents.profile.links, function(link) {
                   return _c("p", { key: link.id }, [
