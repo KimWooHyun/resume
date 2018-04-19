@@ -3,29 +3,29 @@
     <div class="container col-12">
       <section class="section-info flex flex-wrap flex-jc-end col-12 col-p-12">
         <div>
-          <h1>{{profile.name}}</h1>
-          <h4>{{profile.description}}</h4>
+          <h1>{{contents.profile.name}}</h1>
+          <h4>{{contents.profile.description}}</h4>
           <div>
-            <p>{{profile.career}}</p>
-            <p>{{profile.dateOfBirth}}</p>
-            <p>{{profile.email}}</p>
-            <p>{{profile.phoneNumber}}</p>
-            <p v-for="link of profile.links">{{link.name}} - <a :href="link.href">{{link.href}}</a></p>
+            <p>{{transformCareer}}</p>
+            <p>{{contents.profile.dateOfBirth}}</p>
+            <p>{{contents.profile.email}}</p>
+            <p>{{contents.profile.phoneNumber}}</p>
+            <p v-for="link of contents.profile.links" :key="link.id">{{link.name}} - <a :href="link.href">{{link.href}}</a></p>
           </div>
         </div>
       </section>
       <section class="section-detail-info flex flex-wrap col-12">
         <section class="col-12 section-contents">
           <record-title title="자기소개"></record-title>
-          <div v-html="introduction"></div>
+          <div v-html="contents.introduction"></div>
         </section>
-        <section class="col-12 section-contents" v-for="(value, key) in summary" :key="value.id">
+        <section class="col-12 section-contents" v-for="(value, key) in contents.summary" :key="value.id">
           <record-title :title="key"></record-title>
           <record-list :title="key" :lists="value"></record-list>
         </section>
         <section class="col-12 section-contents margin-bottom-0">
           <record-title title="상세 경력"></record-title>
-          <section v-for="(detailContent, key) in detailContents" :key="detailContent.id">
+          <section v-for="(detailContent, key) in contents.detailContents" :key="detailContent.id">
             <h2>{{key}}</h2>
             <h5>{{detailContent.date}}</h5>
             <div class="div-sub-title">
@@ -44,7 +44,7 @@
             </div>
           </section>
         </section>
-        <section class="col-12 section-contents" v-for="(value, key) in contents" :key="value.id">
+        <section class="col-12 section-contents" v-for="(value, key) in contents.contents" :key="value.id">
           <record-title :title="key"></record-title>
           <record-list :title="key" :lists="value"></record-list>
         </section>
@@ -64,8 +64,22 @@ export default {
     RecordList,
     RecordTitle
   },
+  computed: {
+    transformCareer () {
+      let month = parseInt(this.career % 12)
+      return month == 0 ? parseInt(this.career / 12) + "년 경력" : parseInt(this.career / 12) + "년 " + month + "개월 경력"
+    }
+  },
   data () {
-    return Contents
+    return {
+      contents: Contents,
+      career: 0
+    }
+  },
+  created () {
+    this.$event.onCareerAdd((career) => {
+      this.career += career
+    })
   }
 }
 </script>

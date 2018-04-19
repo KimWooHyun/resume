@@ -1,7 +1,7 @@
 <template>
   <table>
     <tbody class="col-12">
-      <tr class="col-12" v-for="child in lists" :key="child.id">
+      <tr class="col-12" v-for="child in children" :key="child.id">
         <td class="col-12 col-p-2" v-html="child.date"></td>
         <td class="col-12 col-p-5 td-title">{{child.title}}</td>
         <td class="col-12 col-p-5">
@@ -18,6 +18,33 @@ export default {
   props: {
     lists: {
       type: Array
+    }
+  },
+  data () {
+    return {
+      children: []
+    }
+  },
+  created () {
+    let date = ''
+    for (let list in this.lists) {
+      if (typeof(this.lists[list].date) == "object") {
+        let date1 = new Date(this.lists[list].date[0])
+        let date2 = new Date(this.lists[list].date[1])
+        let diff = parseInt((date2 - date1) / (24 * 60 * 60 * 1000 * 30)) + 1
+        let year = parseInt(diff / 12)
+        let month = parseInt(diff % 12)
+        let defaultDate = this.lists[list].date[0] + ' - ' + this.lists[list].date[1]
+        date = month == 0 ? defaultDate + '<br/>(' + year + "년)" : defaultDate + '<br/>(' + year + "년 " + month + "개월)"
+        this.$event.emitCareerAdd(diff)
+      } else {
+        date = this.lists[list].date
+      }
+      this.children.push({
+        date: date,
+        title: this.lists[list].title,
+        contents: this.lists[list].contents
+      })
     }
   }
 }
