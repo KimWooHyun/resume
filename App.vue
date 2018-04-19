@@ -3,30 +3,29 @@
     <div class="container col-12">
       <section class="section-info flex flex-wrap flex-jc-end col-12 col-p-12">
         <div>
-          <h1>김우현</h1>
-          <h4>Front-end developer</h4>
+          <h1>{{profile.name}}</h1>
+          <h4>{{profile.description}}</h4>
           <div>
-            <p>3년 3개월 경력</p>
-            <p>1996.11.05</p>
-            <p>dngus242@gmail.com</p>
-            <p>010-5496-2733</p>
-            <p>github - <a href="https://github.com/KimWooHyun">https://github.com/KimWooHyun</a></p>
-            <p>portfolio - <a href="https://kimwoohyun.github.io/portfolio/">https://kimwoohyun.github.io/portfolio/</a></p>
+            <p>{{profile.career}}</p>
+            <p>{{profile.dateOfBirth}}</p>
+            <p>{{profile.email}}</p>
+            <p>{{profile.phoneNumber}}</p>
+            <p v-for="link of profile.links">{{link.name}} - <a :href="link.href">{{link.href}}</a></p>
           </div>
         </div>
       </section>
       <section class="section-detail-info flex flex-wrap col-12">
         <section class="col-12 section-contents">
           <record-title title="자기소개"></record-title>
-          <div v-html="contents.introduction"></div>
+          <div v-html="introduction"></div>
         </section>
-        <section class="col-12 section-contents" v-for="(value, key) in contents.summary" :key="value.id">
+        <section class="col-12 section-contents" v-for="(value, key) in summary" :key="value.id">
           <record-title :title="key"></record-title>
           <record-list :title="key" :lists="value"></record-list>
         </section>
         <section class="col-12 section-contents margin-bottom-0">
           <record-title title="상세 경력"></record-title>
-          <section v-for="(detailContent, key) in contents.detailContents" :key="detailContent.id">
+          <section v-for="(detailContent, key) in detailContents" :key="detailContent.id">
             <h2>{{key}}</h2>
             <h5>{{detailContent.date}}</h5>
             <div class="div-sub-title">
@@ -45,7 +44,7 @@
             </div>
           </section>
         </section>
-        <section class="col-12 section-contents" v-for="(value, key) in contents.contents" :key="value.id">
+        <section class="col-12 section-contents" v-for="(value, key) in contents" :key="value.id">
           <record-title :title="key"></record-title>
           <record-list :title="key" :lists="value"></record-list>
         </section>
@@ -66,9 +65,7 @@ export default {
     RecordTitle
   },
   data () {
-    return {
-      contents: Contents
-    }
+    return Contents
   }
 }
 </script>
