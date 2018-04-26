@@ -1,4 +1,4 @@
-# resume
+# Vue.js Resume
 
 > resume template
 
@@ -31,3 +31,7 @@ yarn start
 yarn build
 
 ```
+
+## How to make your own resume
+- Open `src/contents.js` on your text editor
+- Edit and Add your contents

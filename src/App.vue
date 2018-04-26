@@ -8,7 +8,7 @@
           <div>
             <p>{{transformCareer}}</p>
             <p>{{contents.profile.dateOfBirth}}</p>
-            <p>{{contents.profile.email}}</p>
+            <a :href="transformMailTo">{{contents.profile.email}}</a>
             <p v-for="link of contents.profile.links" :key="link.id">{{link.name}} - <a :href="link.href">{{link.href}}</a></p>
           </div>
         </div>
@@ -71,6 +71,9 @@ export default {
       if (year != 0) { career += year + '년 ' }
       if (month != 0) { career += month + '개월' }
       return career + " 경력"
+    },
+    transformMailTo () {
+      return `mailto:${this.contents.profile.email}`
     }
   },
   data () {
