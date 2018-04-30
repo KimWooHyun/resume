@@ -33,5 +33,9 @@ yarn build
 ```
 
 ## How to make your own resume
-- Open `src/contents.js` on your text editor
+- Fork and clone this repository.
+- Run `yarn install` on your terminal.
+- Open `src/contents.js` on your text editor.
 - Edit and Add your contents
+- Run `yarn build` on your terminal
+- Do setting for github.io hosting.
