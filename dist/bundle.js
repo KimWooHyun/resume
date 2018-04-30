@@ -778,6 +778,9 @@ module.exports = g;
         career += month + '개월';
       }
       return career + " 경력";
+    },
+    transformMailTo() {
+      return `mailto:${this.contents.profile.email}`;
     }
   },
   data() {
@@ -9738,7 +9741,9 @@ var render = function() {
                 _vm._v(" "),
                 _c("p", [_vm._v(_vm._s(_vm.contents.profile.dateOfBirth))]),
                 _vm._v(" "),
-                _c("p", [_vm._v(_vm._s(_vm.contents.profile.email))]),
+                _c("a", { attrs: { href: _vm.transformMailTo } }, [
+                  _vm._v(_vm._s(_vm.contents.profile.email))
+                ]),
                 _vm._v(" "),
                 _vm._l(_vm.contents.profile.links, function(link) {
                   return _c("p", { key: link.id }, [
