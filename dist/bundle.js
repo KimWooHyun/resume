@@ -9282,24 +9282,24 @@ module.exports = {
 
   contents: {
     'Skill Set': [{
-      'date': '(상급: 3, 중급: 2, 초급: 1)',
+      'date': '',
       'title': '',
       'contents': ['']
     }, {
       'date': 'Language',
-      'title': 'HTML5 (3) / CSS3 (3) / JavaScript (2) / Swift (2) / Python (2)',
+      'title': 'HTML5 / CSS3 / JavaScript / Swift / Python',
       'contents': ['']
     }, {
       'date': 'Framework',
-      'title': 'Vue.js (3) / Nuxt.js (3) / Django (2) / Flask (1) / Bootstrap (3)',
+      'title': 'Vue.js / Nuxt.js / React / Django / Flask / Bootstrap',
       'contents': ['']
     }, {
       'date': 'Library',
-      'title': 'Webpack (2) / jQuery (2) / Less (2) / Axios (3) / Alamofire (3)',
+      'title': 'Webpack / jQuery / Less / Axios / Alamofire',
       'contents': ['']
     }, {
       'date': 'Dependency Manager',
-      'title': 'cocoapods (3) / npm (3) / yarn (3) / pip (3)',
+      'title': 'cocoapods / npm / yarn / pip',
       'contents': ['']
     }],
     '개인 프로젝트': [{
