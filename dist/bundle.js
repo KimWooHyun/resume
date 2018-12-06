@@ -9267,15 +9267,12 @@ module.exports = {
   },
   introduction: `
     2014년부터 Front-End 개발을 하고 있는 김우현입니다.<br />
-    마크업과 Vue.js를 이용한 Front-End 개발에 관해 관심이 많으며 최근에는 flex와 크로스 브라우징, 반응형 웹과 사용자 인터랙션에도 관심을 두고 있습니다.<br />
-    주로 사용하는 언어는 HTML, CSS, JavaScript 입니다.<br /><br />
-    최근에 Vue.js에 관심이 생겨 사내 도입을 시도하였고 Front-End 프레임워크에 관심을 가지게 되었습니다.<br />
-    이후 리뉴얼 프로젝트에서는 Vue.js의 SSR 프레임 워크인 Nuxt.js를 이용한 서비스를 제작하여 SPA 와 SSR 개발 경험을 하였습니다.<br />
-    Nuxt.js 프로젝트에서는 보다 시멘틱 한 웹에 중점을 두었으며, CSS 프레임 워크를 따로 두지 않고 CSS 전처리 도구인 LESS 로 개발하였습니다.<br /><br />
+    마크업과 Vue.js를 이용한 Front-End 개발에 관심이 많으며 최근에는 flex와 크로스 브라우징, 반응형 웹과 사용자 인터랙션에도 관심을 두고 있습니다.<br />
+    주로 사용하는 언어는 HTML, CSS, JavaScript 입니다.<br />
     디자이너와는 스케치와 제플린을 활용하여 커뮤니케이션을 하였으며 결과물을 같이 확인 하며 실시간으로 반영하고 의견 조율을 하였습니다.<br /><br />
     오픈소스에도 관심이 많습니다.<br />
-    처음에는 Nuxt.js 의 도큐먼트 오탈자와 예제 코드 수정 등 작은 이슈들을 처리하였고, github에 있는 여러 컴포넌트 라이브러리들을 둘러보면서 오픈소스에 대한 관심이 생겼습니다.<br />
-    그러다 최근에 사내에서 쓰고 있는 기능을 구현하는 도중, 라이브러리로 만들어 배포하면 어떨까 생각하게 되어 오픈소스로 배포하였습니다.<br />
+    처음에는 Nuxt.js 의 도큐먼트 오탈자와 예제 코드 수정 등 작은 이슈들을 처리하였고, github에 있는 여러 컴포넌트 라이브러리들을 둘러보면서 오픈소스에 대한 관심이 생겼습니다.
+    그러다 사내에서 쓰고 있는 기능을 구현하는 도중, 라이브러리로 만들어 배포하면 어떨까 생각하게 되어 오픈소스로 배포하였습니다.<br />
     이후 여러 나라의 사람들과 다양한 언어로 github을 통해 같이 살을 붙여나가고 있습니다.<br />
     현재 vue-lunar-calendar  라는 한국 음력 달력 라이브러리로 배포되었으며 총 7명의 contributors, 6개의 언어로 되어있습니다.
     `,
@@ -9287,7 +9284,7 @@ module.exports = {
       'contents': ['']
     }, {
       'date': 'Language',
-      'title': 'HTML5 / CSS3 / JavaScript / Swift / Python',
+      'title': 'HTML5 / CSS3 / JavaScript / Typescript / Swift / Python',
       'contents': ['']
     }, {
       'date': 'Framework',
@@ -9295,7 +9292,7 @@ module.exports = {
       'contents': ['']
     }, {
       'date': 'Library',
-      'title': 'Webpack / jQuery / Less / Axios / Alamofire',
+      'title': 'Webpack / jQuery / Less / Scss / Axios / Alamofire',
       'contents': ['']
     }, {
       'date': 'Dependency Manager',
@@ -9312,23 +9309,35 @@ module.exports = {
       'contents': ['- Swift library', '- <a href="https://github.com/KimWooHyun/WHLunarCalendar">https://github.com/KimWooHyun/WHLunarCalendar</a>', '- 한국 음력 달력 라이브러리', '- opensource']
     }],
     '개인 활동': [{
-      'date': '2018.02 - 현재',
+      'date': '2018.12',
+      'title': '[발표] 조금 일찍 시작한 사회 적응기',
+      'contents': ['Django Girls 2018 하반기 밋업 발표', '- 특성화고 출신으로 시작하여 4년차 개발자로서의 성장하기까지의 이야기 발표', '- <a href="https://www.slideshare.net/ssuserd3aacb/ss-124649398">https://www.slideshare.net/ssuserd3aacb/ss-124649398</a>']
+    }, {
+      'date': '2018.11',
+      'title': '[발표] Be Creators',
+      'contents': ['Women who code 서울 11월 밋업 발표', '- 이직기와 개발자로서 현재 하고 있는일, 사내 문화들을 소개', '- <a href="https://www.slideshare.net/ssuserd3aacb/be-creators">https://www.slideshare.net/ssuserd3aacb/be-creators</a>']
+    }, {
+      'date': '2018.10',
+      'title': '[발표] "합시다. 회고."',
+      'contents': ['GDG Campus Korea Lightning Talk & Networking 발표', '-  사내문화 중에 "회고"에 대한 내용 발표', '- <a href="https://www.slideshare.net/ssuserd3aacb/ss-119212098">https://www.slideshare.net/ssuserd3aacb/ss-119212098</a>']
+    }, {
+      'date': '2018.06',
+      'title': '[발표] 디자이너와 파티맺기',
+      'contents': ['Google Campus Korea 6월 밋업 발표', '- 개발자와 디자이너간의 소통 그리고 업무 프로세스에 대한 발표', '- <a href="https://www.slideshare.net/ssuserd3aacb/ss-100284832">https://www.slideshare.net/ssuserd3aacb/ss-100284832</a>']
+    }, {
+      'date': '2018.02 - 2018.04',
       'title': 'Women Techmakers KR 2018',
       'img': '/pa/wtm-logo.png',
       'contents': ['<strong>Women Techmakers KR 2018 오거나이저</strong>', '- 행사준비', '- 안내사이트 제작', '- <a href="https://wtm-korea-2018.firebaseapp.com/">https://wtm-korea-2018.firebaseapp.com/</a>']
     }, {
-      'date': '2017.08 - 현재',
+      'date': '2017.08 - 2018.10',
       'title': 'DjangoCon KR 2018',
       'img': '/pa/djangocon-logo.png',
-      'contents': ['<strong>DjangoCon KR 2018 오거나이저</strong>', '- 행사준비']
+      'contents': ['<strong>DjangoCon KR 2018 오거나이저</strong>', '- 행사준비', '- 안내사이트 제작', '- <a href="https://devdjangokr.github.io/2018/">https://devdjangokr.github.io/2018/</a>']
     }, {
       'date': '2017.12',
       'title': 'Do it! Vue.js',
       'contents': ['vue.js 관련 책 기술 검토 및 자문', '서명: Do it! Vue.js 입문서', '저자: 장기효', '대상 독자: 프레임워크를 다뤄보지 않은 웹 개발 입문자, Vue.js를 배우고 싶은 대학생 & 퍼블리셔 & 실무자', '책 내용: 프론트엔드 개발 프레임워크인 Vue.js 소개, 뷰 기술요소 학습, 뷰를 이용한 실전 애플리케이션 제작']
-    }, {
-      'date': '2017.12',
-      'title': 'Vue.js Korea Meetup3',
-      'contents': ['Vue.js Korea 3번째 밋업 스태프 및 행사 총괄']
     }, {
       'date': '2017.11',
       'title': 'GDG DevFest',
@@ -9339,16 +9348,12 @@ module.exports = {
       'contents': ['9XD 해커톤 "내꺼만들기, 내꺼톤" 참가', '- Vue.js 전파', '- 팀 주제: 불만', '- 본인의 불만을 말하고 피드백을 받을 수 있는 게시판 형태의 웹 서비스 "불만투고" 제작 및 배포']
     }, {
       'date': '2017.08',
-      'title': 'GDG Web Tech',
+      'title': '[발표] 원모먼트 Vue js 적용기',
       'contents': ['GDG Web Tech 발표', '- Vue.js 관련 발표', '- <a href="https://www.slideshare.net/ssuserd3aacb/vue-js-79169830">https://www.slideshare.net/ssuserd3aacb/vue-js-79169830</a>']
     }, {
-      'date': '2017.08',
-      'title': 'Vue.js Korea Meetup2',
-      'contents': ['vue.js Korea 2번째 밋업 스태프']
-    }, {
       'date': '2017.07',
-      'title': 'GDG Korea Campus summer party',
-      'contents': ['GDG Korea Campus 스태프', '- 행사 준비', '- 안내사이트 제작 참여', '- <a href="https://gdgsummerparty.firebaseapp.com">https://gdgsummerparty.firebaseapp.com</a>']
+      'title': 'GDG Campus Korea summer party',
+      'contents': ['GDG Campus Korea 스태프', '- 행사 준비', '- 안내사이트 제작 참여', '- <a href="https://gdgsummerparty.firebaseapp.com">https://gdgsummerparty.firebaseapp.com</a>']
     }],
     '학력 사항': [{
       'date': '2016 - 현재',
@@ -9364,7 +9369,7 @@ module.exports = {
     '경력 요약': [{
       'date': ['2018.04', '현재'],
       'title': 'Spoqa (스포카)',
-      'contents': ['주 - Front-end 개발']
+      'contents': ['주 - Front-end 개발', '서브 - Swift, Android 개발']
     }, {
       'date': ['2016.01', '2018.01'],
       'title': 'ONE MOMENT (원모먼트)',
@@ -9376,6 +9381,25 @@ module.exports = {
     }]
   },
   detailContents: {
+    'Spoqa (스포카)': {
+      'date': '2018.04 - 현재',
+      'info': '소상공인을 위한 포인트 적립 및 마케팅 솔루션을 제공하는 스타트업.',
+      'service': [`Web<br /> 
+        - 회사 홈페이지: <a href="https://www.spoqa.com/">https://www.spoqa.com/</a><br/>
+        - 도도포인트 홈페이지: <a href="https://www.dodopoint.com/">https://www.dodopoint.com/</a>
+        `],
+      'project': {
+        'project': [{
+          'date': '2018.07 - 2018.11',
+          'title': '손님용 모바일 페이지 배포',
+          'contents': ['손님이 직접 회원 정보를 수정 할 수 있는 모바일 페이지 배포', '- 작업 리스트 : 정보 확인 / 변경 / 휴대폰 변경 / 인증 번호 확인', '- 기여도 : 50%, 프론트엔드 100% 기여', 'stack: React, Redux, Typescript, Scss']
+        }, {
+          'date': '2018.05 - 2018.06',
+          'title': 'POS와 태블릿 연동 개선',
+          'contents': ['POS와 태블릿을 SSE를 이용하여 연동할 수 있는 프로세스 개발', '- 작업 리스트 : 태블릿에서 연동 코드 가져오기 / POS에서 연동코드 확인하기 / iOS, Android와 웹 연동을 위해 네이티브 코드 수정', '- SSE(Server-Sent Events) 을 이용하여 연동 ping/pong', '- 기여도 : 25%, 프론트엔드 100% 기여', 'stack: React, Redux, Typescript, Scss']
+        }]
+      }
+    },
     'ONE MOMENT (원모먼트)': {
       'date': '2016.01 - 2018.01',
       'info': '90분 당일 꽃배달 서비스 “원모먼트 플라워” 를 서비스 중인 스타트업.',
