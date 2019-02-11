@@ -9,18 +9,6 @@ module.exports = {
       {name: 'portfolio', href: 'https://kimwoohyun.github.io/portfolio/'}
     ]
   },
-  introduction: `
-    2014년부터 Front-End 개발을 하고 있는 김우현입니다.<br />
-    마크업과 Vue.js를 이용한 Front-End 개발에 관심이 많으며 최근에는 flex와 크로스 브라우징, 반응형 웹과 사용자 인터랙션에도 관심을 두고 있습니다.<br />
-    주로 사용하는 언어는 HTML, CSS, JavaScript 입니다.<br />
-    디자이너와는 스케치와 제플린을 활용하여 커뮤니케이션을 하였으며 결과물을 같이 확인 하며 실시간으로 반영하고 의견 조율을 하였습니다.<br /><br />
-    오픈소스에도 관심이 많습니다.<br />
-    처음에는 Nuxt.js 의 도큐먼트 오탈자와 예제 코드 수정 등 작은 이슈들을 처리하였고, github에 있는 여러 컴포넌트 라이브러리들을 둘러보면서 오픈소스에 대한 관심이 생겼습니다.
-    그러다 사내에서 쓰고 있는 기능을 구현하는 도중, 라이브러리로 만들어 배포하면 어떨까 생각하게 되어 오픈소스로 배포하였습니다.<br />
-    이후 여러 나라의 사람들과 다양한 언어로 github을 통해 같이 살을 붙여나가고 있습니다.<br />
-    현재 vue-lunar-calendar  라는 한국 음력 달력 라이브러리로 배포되었으며 총 7명의 contributors, 6개의 언어로 되어있습니다.
-    `
-  ,
   contents: {
     'Skill Set': [
       {
@@ -35,12 +23,12 @@ module.exports = {
       },
       {
         'date': 'Framework',
-        'title': 'Vue.js / Nuxt.js / React / Django / Flask / Bootstrap',
+        'title': 'Vue.js / Nuxt.js / React / Django / Flask',
         'contents': ['']
       },
       {
         'date': 'Library',
-        'title': 'Webpack / jQuery / Less / Scss / Axios / Alamofire',
+        'title': 'Webpack / Less / Scss / Axios / Alamofire',
         'contents': ['']
       },
       {
@@ -234,6 +222,15 @@ module.exports = {
       ],
       'project': {
         'project': [
+          {
+            'date': '2019.01 - ',
+            'title': 'Inbound 스쿼드 오거나이저',
+            'contents': [
+              '리드 확보 및 재계약율 개선을 위한 그로쓰핵 스쿼드 오거나이징',
+              '- 작업 리스트 : 실무자 미팅 / 협의체 미팅 / 리더 미팅 / 프로덕트 매니징 / 리드 확보 기획안 작성 및 프로토타이핑 / inbound 리드 시트 개선안 기획',
+              'stack: Python, Jinja2'
+            ]
+          },
           {
             'date': '2018.07 - 2018.11',
             'title': '손님용 모바일 페이지 배포',

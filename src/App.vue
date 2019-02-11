@@ -14,10 +14,6 @@
         </div>
       </section>
       <section class="section-detail-info flex flex-wrap col-12">
-        <section class="col-12 section-contents">
-          <record-title title="자기소개"></record-title>
-          <div v-html="contents.introduction"></div>
-        </section>
         <section class="col-12 section-contents" v-for="(value, key) in contents.summary" :key="value.id">
           <record-title :title="key"></record-title>
           <record-list :title="key" :lists="value"></record-list>
