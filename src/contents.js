@@ -260,7 +260,7 @@ module.exports = {
       'info': '90분 당일 꽃배달 서비스 “원모먼트 플라워” 를 서비스 중인 스타트업.',
       'service': [
         'Web<br /> - <a href="https://1moment.co.kr/">https://1moment.co.kr/</a> <br /> - 현재 Vue.js (SPA)로 개발된 사이트<br /><br />',
-        'iOS App<br /> - <a href="https://goo.gl/jP2ZYR">https://goo.gl/jP2ZYR</a>'
+        'iOS App<br /> - 현재 iOS는 내려간 상태'
       ],
       'project': {
         'project': [
@@ -354,7 +354,7 @@ module.exports = {
         `Web<br />
         <span style="font-weight:bold">shapEngine</span><br />
         - 3D Printer를 보유한 사람과 3D Modeling 도면을 보유한 사람을 매칭해 주는 중개 플랫폼<br />
-        - <a href="https://shapengine.com/">https://shapengine.com/</a><br /><br />
+        - 현재 '<a href="https://creatable.com/">https://creatable.com/</a>'으로 변경<br /><br />
         <span style="font-weight:bold">creatable labs</span><br />
         - 자사 3D Printer 인 creatable 시리즈 판매 사이트<br />
         - <a href="https://creatablelabs.com/">https://creatablelabs.com/</a>`
