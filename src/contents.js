@@ -185,7 +185,7 @@ module.exports = {
   summary: {
     '경력 요약': [
       {
-        'date': ['2018.04', '현재'],
+        'date': ['2018.04.23', '현재'],
         'title': 'Spoqa (스포카)',
         'contents': [
           '주 - Front-end 개발',
@@ -193,7 +193,7 @@ module.exports = {
         ]
       },
       {
-        'date': ['2016.01', '2018.01'],
+        'date': ['2016.01.25', '2018.01.25'],
         'title': 'ONE MOMENT (원모먼트)',
         'contents': [
           '주 - Front-end 개발',
@@ -201,7 +201,7 @@ module.exports = {
         ]
       },
       {
-        'date': ['2014.12', '2016.01'],
+        'date': ['2015.01.02', '2016.01.06'],
         'title': 'ATEAM VENTURES (에이팀벤쳐스)',
         'contents': [
           '주 - Front-end 개발',
@@ -212,7 +212,7 @@ module.exports = {
   },
   detailContents: {
     'Spoqa (스포카)': {
-      'date': '2018.04 - 현재',
+      'date': '2018.04.23 - 현재',
       'info': '소상공인을 위한 포인트 적립 및 마케팅 솔루션을 제공하는 스타트업.',
       'service': [
         `Web<br /> 
@@ -256,7 +256,7 @@ module.exports = {
       }
     },
     'ONE MOMENT (원모먼트)': {
-      'date': '2016.01 - 2018.01',
+      'date': '2016.01.25 - 2018.01.25',
       'info': '90분 당일 꽃배달 서비스 “원모먼트 플라워” 를 서비스 중인 스타트업.',
       'service': [
         'Web<br /> - <a href="https://1moment.co.kr/">https://1moment.co.kr/</a> <br /> - 현재 Vue.js (SPA)로 개발된 사이트<br /><br />',
@@ -348,7 +348,7 @@ module.exports = {
       }
     },
     'ATEAM VENTURES (에이팀벤쳐스)': {
-      'date': '2014.12 - 2016.01',
+      'date': '2015.01.02 - 2016.01.06',
       'info': '3D Printer 공유 플랫폼 사이트 “ShapEngine” 을 서비스 중인 스타트업.',
       'service': [
         `Web<br />
@@ -384,7 +384,7 @@ module.exports = {
             ]
           },
           {
-            'date': '2014.12 - 2015.06',
+            'date': '2014.12 - 2015.06<br/>(인턴 2개월)',
             'title': 'shapEngine 웹 서비스 제작',
             'contents': [
               'shapEngine 웹 서비스 제작',
