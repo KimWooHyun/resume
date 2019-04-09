@@ -223,12 +223,21 @@ module.exports = {
       'project': {
         'project': [
           {
-            'date': '2019.01 - ',
+            'date': '2019.03 - ',
+            'title': 'Growth Hack',
+            'contents': [
+              '메시지, 인바운드 그로쓰핵을 위한 프론트엔드 작업',
+              '- 작업 리스트 : 퀘스트 기능 정식 릴리즈',
+              'stack: React, Redux, Typescript, Scss'
+            ]
+          },
+          {
+            'date': '2019.01 - 2019.03',
             'title': 'Inbound 스쿼드 오거나이저',
             'contents': [
               '리드 확보 및 재계약율 개선을 위한 그로쓰핵 스쿼드 오거나이징',
-              '- 작업 리스트 : 실무자 미팅 / 협의체 미팅 / 리더 미팅 / 프로덕트 매니징 / 리드 확보 기획안 작성 및 프로토타이핑 / inbound 리드 시트 개선안 기획',
-              'stack: Python, Jinja2'
+              '- 작업 리스트 : 실무자 미팅 / 협의체 미팅 / 리더 미팅 / 프로덕트 매니징 / 리드 확보 기획안 작성 및 프로토타이핑 / inbound 리드 시트 개선안 기획 / 소개 리워드 기능 기획 및 프론트엔드 작업 / 퀘스트 기능 기획 및 프론트엔드 작업',
+              'stack: Python, Jinja2, React, Redux, Typescript, Scss'
             ]
           },
           {
