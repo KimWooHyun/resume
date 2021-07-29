@@ -2,6 +2,7 @@
   <h1>
     <span>{{title}}</span>
   </h1>
+  
 </template>
 
 <script>
@@ -10,7 +11,7 @@ export default {
   props: {
     title: {
       type: String
-    }
+    },
   }
 }
 </script>
