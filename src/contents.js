@@ -23,7 +23,7 @@ module.exports = {
       },
       {
         'date': 'Framework',
-        'title': 'Vue.js / Nuxt.js / React / Django / Flask',
+        'title': 'React / Next.js / Vue.js / Nuxt.js / Django / Flask',
         'contents': ['']
       },
       {
@@ -61,6 +61,15 @@ module.exports = {
       }
     ],
     '개인 활동': [
+      {
+        'date': '2021.02',
+        'title': '[발표 / 운영] React + TypeScript + GraphQL 으로 시작하는 Web Front-End',
+        'contents': [
+          '제 3회 스포카콘 발표 및 운영',
+          '- 스포카에서 GraphQL 도입한 경험 발표',
+          '- <a href="https://www.slideshare.net/ssuserd3aacb/3-react-typescript-graphql-web-frontend">https://www.slideshare.net/ssuserd3aacb/3-react-typescript-graphql-web-frontend</a>'
+        ]
+      },
       {
         'date': '2018.12',
         'title': '[발표] 조금 일찍 시작한 사회 적응기',
@@ -171,9 +180,9 @@ module.exports = {
     ],
     '학력 사항': [
       {
-        'date': '2016 - 현재',
+        'date': '2016 - 2021',
         'title': '한국방송통신대학교',
-        'contents': ['컴퓨터과학과 재학중']
+        'contents': ['컴퓨터과학과 졸업']
       },
       {
         'date': '2012 - 2015',
@@ -185,50 +194,94 @@ module.exports = {
   summary: {
     '경력 요약': [
       {
-        'date': ['2018.04.23', '현재'],
+        'date': ['2021.07.01', '현재'],
+        'title': 'hops (홉스)',
+        'contents': [
+          '포지션: 공동창업자 / FE 프로그래머',
+          '주: Front-end 개발',
+        ]
+      },
+      {
+        'date': ['2018.04.23', '2021.06.03'],
         'title': 'Spoqa (스포카)',
         'contents': [
-          '주 - Front-end 개발',
-          '서브 - Swift, Android 개발',
+          '포지션: FE 프로그래머 ',
+          '주: Front-end 개발',
+          '서브: Swift, Android 개발',
         ]
       },
       {
         'date': ['2016.01.25', '2018.01.25'],
         'title': 'ONE MOMENT (원모먼트)',
         'contents': [
-          '주 - Front-end 개발',
-          '서브 - Swift, Django 개발',
+          '포지션: FE 프로그래머 ',
+          '주: Front-end 개발',
+          '서브: Swift, Django 개발',
         ]
       },
       {
         'date': ['2015.01.02', '2016.01.06'],
         'title': 'ATEAM VENTURES (에이팀벤쳐스)',
         'contents': [
-          '주 - Front-end 개발',
-          '서브 - Django, Flask 개발',
+          '포지션: 프로그래머 ',
+          '주: Front-end 개발',
+          '서브: Django, Flask 개발',
         ]
       }
     ]
   },
   detailContents: {
-    'Spoqa (스포카)': {
-      'date': '2018.04.23 - 현재',
-      'info': '소상공인을 위한 포인트 적립 및 마케팅 솔루션을 제공하는 스타트업.',
+    'hops (홉스)': {
+      'date': '2021.07.01 - 현재',
+      'info': '누구나 쉽게 데이터베이스를 사용할 수 솔루션을 제공하는 스타트업.',
       'service': [
         `Web<br /> 
-        - 회사 홈페이지: <a href="https://www.spoqa.com/">https://www.spoqa.com/</a><br/>
-        - 도도포인트 홈페이지: <a href="https://www.dodopoint.com/">https://www.dodopoint.com/</a>
+        - 회사 홈페이지: <a href="https://www.hopsoffice.com/">https://www.hopsoffice.com/</a><br/>
+        - 쿼리.딜리버리 홈페이지: <a href="https://run.query.delivery/">https://run.query.delivery/</a>
         `
       ],
       'project': {
         'project': [
           {
-            'date': '2019.03 - ',
+            'date': '2021.07 - 현재',
+            'title': '쿼리.딜리버리 서비스 개발 및 운영',
+            'contents': [
+              '누구나 쉽게 데이터베이스를 사용할 수 있는 솔루션인 쿼리.딜리버리 프론트엔드 작업',
+              '- 작업 리스트 : 프론트엔드 개발',
+              'stack: React, Typescript, SCSS'
+            ]
+          },
+        ]
+      }
+    },
+    'Spoqa (스포카)': {
+      'date': '2018.04.23 - 2021.06.03',
+      'info': '소상공인을 위한 포인트 적립 및 마케팅 솔루션을 제공하는 스타트업.',
+      'service': [
+        `Web<br /> 
+        - 회사 홈페이지: <a href="https://www.spoqa.com/">https://www.spoqa.com/</a><br/>
+        - 도도 포인트 홈페이지: <a href="https://www.dodopoint.com/">https://www.dodopoint.com/</a><br/>
+        - 도도 카트 홈페이지: <a href="https://dodocart.co.kr/">https://dodocart.co.kr/</a>
+        `
+      ],
+      'project': {
+        'project': [
+          {
+            'date': '2020.01 - 2021.06',
+            'title': '도도 카트 백오피스 개발 및 운영',
+            'contents': [
+              '매장 비용 관리 서비스인 도도 카트의 운영을 편하게 하기 위한 백오피스 프론트엔드 작업',
+              '- 작업 리스트 : 백오피스 프론트엔드 개발 / 프론트엔드 챕터 리드',
+              'stack: React, GraphQL, Apollo, Typescript, SCSS'
+            ]
+          },
+          {
+            'date': '2019.03 - 2020.01',
             'title': 'Growth Hack',
             'contents': [
               '메시지, 인바운드 그로쓰핵을 위한 프론트엔드 작업',
-              '- 작업 리스트 : 퀘스트 기능 정식 릴리즈',
-              'stack: React, Redux, Typescript, Scss'
+              '- 작업 리스트 : 퀘스트 기능 정식 릴리즈 / GA 기획',
+              'stack: React, Redux, Typescript, SCSS'
             ]
           },
           {
@@ -237,7 +290,7 @@ module.exports = {
             'contents': [
               '리드 확보 및 재계약율 개선을 위한 그로쓰핵 스쿼드 오거나이징',
               '- 작업 리스트 : 실무자 미팅 / 협의체 미팅 / 리더 미팅 / 프로덕트 매니징 / 리드 확보 기획안 작성 및 프로토타이핑 / inbound 리드 시트 개선안 기획 / 소개 리워드 기능 기획 및 프론트엔드 작업 / 퀘스트 기능 기획 및 프론트엔드 작업',
-              'stack: Python, Jinja2, React, Redux, Typescript, Scss'
+              'stack: Python, Jinja2, React, Redux, Typescript, SCSS'
             ]
           },
           {
@@ -247,7 +300,7 @@ module.exports = {
               '손님이 직접 회원 정보를 수정 할 수 있는 모바일 페이지 배포',
               '- 작업 리스트 : 정보 확인 / 변경 / 휴대폰 변경 / 인증 번호 확인',
               '- 기여도 : 50%, 프론트엔드 100% 기여',
-              'stack: React, Redux, Typescript, Scss'
+              'stack: React, Redux, Typescript, SCSS'
             ]
           },
           {
@@ -258,7 +311,7 @@ module.exports = {
               '- 작업 리스트 : 태블릿에서 연동 코드 가져오기 / POS에서 연동코드 확인하기 / iOS, Android와 웹 연동을 위해 네이티브 코드 수정',
               '- SSE(Server-Sent Events) 을 이용하여 연동 ping/pong',
               '- 기여도 : 25%, 프론트엔드 100% 기여',
-              'stack: React, Redux, Typescript, Scss'
+              'stack: React, Redux, Typescript, SCSS'
             ]
           },
         ]
@@ -289,7 +342,7 @@ module.exports = {
               '- axios 를 활용한 api call',
               '- PM2, ecosystem을 이용한 배포 자동화',
               '- 기여도 : 100%, 단독진행',
-              'stack: Vue.js, Nuxt.js, Less'
+              'stack: Vue.js, Nuxt.js, LESS'
             ]
           },
           {

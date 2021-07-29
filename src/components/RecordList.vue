@@ -2,8 +2,8 @@
   <table>
     <tbody class="col-12">
       <tr class="col-12" v-for="child in children" :key="child.id">
-        <td class="col-12 col-p-2" v-html="child.date"></td>
-        <td class="col-12 col-p-5 td-title">{{child.title}}</td>
+        <td class="col-12 col-p-3" v-html="child.date"></td>
+        <td class="col-12 col-p-4 td-title">{{child.title}}</td>
         <td class="col-12 col-p-5">
           <div v-for="contents in child.contents" :key="contents.id" v-html="contents"></div>
         </td>
@@ -67,7 +67,7 @@ export default {
     border-bottom: dashed 1px #dddddd;
   }
   td {
-    padding-bottom: 10px;
+    padding: 4px 8px;
   }
   .td-title {
     font-weight: bold;
