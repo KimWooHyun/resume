@@ -223,10 +223,20 @@ module.exports = {
         `Web<br /> 
         - 회사 홈페이지: <a href="https://www.hopsoffice.com/">https://www.hopsoffice.com/</a><br/>
         - 홉스 홈페이지: <a href="https://www.hops.pub/">https://www.hops.pub/</a>
+        - 쿼리.딜리버리 홈페이지: <a href="https://run.query.delivery/">https://run.query.delivery/</a>
         `,
       ],
       project: {
         project: [
+          {
+            date: "2022.12 - 현재",
+            title: "홉스 서비스 개발 및 운영",
+            contents: [
+              "개발자를 위한 백오피스 빌더 솔루션 프론트엔드 작업",
+              "- 작업 리스트 : 프론트엔드 개발",
+              "stack: React, Typescript, Turborepo",
+            ],
+          },
           {
             date: "2021.07 - 현재",
             title: "쿼리.딜리버리 서비스 개발 및 운영",
